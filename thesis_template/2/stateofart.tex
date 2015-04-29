@@ -5,7 +5,6 @@
 
 
 %transition between chapters, usually no more than two parragraphs
-The state of the art used in the thesis highlighted the advances in the cloud computing domain and the mobile domain...
 
 
 % change according to folder and file names
@@ -18,15 +17,26 @@ The state of the art used in the thesis highlighted the advances in the cloud co
 % ----------------------- State of the art ------------------------
 
 
-\section{Topic}
-The idea is to present  the major ideas (current work, related work, etc.) in the state of the art right up to, but not including, your own personal brilliant ideas.  You might investigate in different sources such as research papers, books, magazines, etc.
+\section{Automating Authentication Process}
+Automating Authentication process in this context refers to automating or simplifying the process of authenticating the user accessing the phone or features on the phone. This section discusses some of the tools used on android to automate authentication.
 
+\subsection{Service providers}
+Nowadays social media websites with lots of users are providing developers the option to let users authenticate by using accounts on the social media websites. Users do not have to create new accounts to these sites, but will refer to their already existing accounts on social media as a way of registration. On android the user needs to have that social media applicatoin installed and logged in to use this method. The most known two providers are Google and Facebook.
 
+\subsubsection{Google Identity Platform}
+Google is providing android developers with an application programming interface (API) which allows users to authenticate using Google account, but also allows developers to integrate other Google services into their applications: payments via Google Wallet, sharing with Google+, saving files to Drive, etc. 
 
+\subsubsection{Facebook SDK}
+Facebook has a software development kit (SDK) for android developers. Just as with Google API, the SDK allows authentication via Facebook account and also provides more services - sharing on Facebook, sending application invites via Facebook, etc.
 
+\subsection{Internal applicatoin coding}
+Android SDK includes many ways for storing data in android smartphones internally. Developers can code the application to store credentials in an internal database, applications private preferences file or even in a plain text document. On application startup they will check if anything is present in a selected  source and continue authentication if so.
+
+\subsubsection{Android AccountManager}
+Another route is to use android built in centralized registry. This registry can hold user credentials or even authentication tokens which are generated via application server on the first authentication. Though it may require implementing authenticator for application specific details for validating account credentials and storing account information. For example Google, Facebook, and Microsoft Exchange each have their own authenticator.
 
 \section{Summary}
-Summarize the chapter with at least two paragraphs.
+Using 3rd party accounts as means for authentication is viable in many situations, but it also requires accounts on these sites, which makes the application bound to theirs. Writing your own code for simplifying authentication does not bound the application to anyone, at the same time could mean more work on the coding. 
 
 
 %add figures

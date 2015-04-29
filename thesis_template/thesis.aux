@@ -1,16 +1,21 @@
 \relax 
-\ifx\hyper@anchor\@undefined
-\global \let \oldcontentsline\contentsline
-\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
-\global \let \oldnewlabel\newlabel
-\gdef \newlabel#1#2{\newlabelxx{#1}#2}
-\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
-\AtEndDocument{\let \contentsline\oldcontentsline
-\let \newlabel\oldnewlabel}
-\else
-\global \let \hyper@last\relax 
-\fi
-
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \@input{title_page/stardard_page.aux}
 \FN@pp@footnotehinttrue 
 \select@language{english}
@@ -24,7 +29,7 @@
 \FN@pp@footnotehinttrue 
 \FN@pp@footnotehinttrue 
 \FN@pp@footnotehinttrue 
-\@writefile{toc}{\contentsline {chapter}{List of Figures}{v}{section*.3}}
+\@writefile{toc}{\contentsline {chapter}{List of Figures}{v}{chapter*.2}}
 \FN@pp@footnotehinttrue 
 \@input{0_frontmatter/acknowledgement.aux}
 \FN@pp@footnotehinttrue 
@@ -50,6 +55,6 @@
 \bibdata{thesis}
 \FN@pp@footnotehinttrue 
 \bibcite{paper:mcm}{{1}{}{{}}{{}}}
-\global\NAT@numberstrue
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{21}{section*.5}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{21}{chapter*.3}}
 \FN@pp@footnotehinttrue 
