@@ -1,48 +1,153 @@
-% This file was created with JabRef 2.6.
+% This file was created with JabRef 2.10.
 % Encoding: Cp1257
 
-@ARTICLE{bao2004activity,
-  author = {Bao, L. and Intille, S.S.},
-  title = {Activity recognition from user-annotated acceleration data},
-  journal = {Pervasive Computing},
-  year = {2004},
-  pages = {1--17},
-  owner = {Huber_Flores},
-  publisher = {Springer},
-  timestamp = {2011.05.18}
+
+@InProceedings{bojinov2011mobile,
+  Title                    = {Mobile token-based authentication on a budget},
+  Author                   = {Bojinov, Hristo and Boneh, Dan},
+  Booktitle                = {Proceedings of the 12th Workshop on Mobile Computing Systems and Applications},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {14--19},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.22}
 }
 
-@INPROCEEDINGS{paper:mcm,
-  author = {H. Flores and S. N. Srirama and C. Paniagua},
-  title = {{A Generic Middleware Framework for Handling Process Intensive Hybrid
-	Cloud Services from Mobiles}},
-  booktitle = {The 9th International Conference on Advances in Mobile Computing
-	\& Multimedia (MoMM-2011)},
-  year = {2011},
-  pages = {87-95},
-  publisher = {ACM},
-  owner = {Huber_Flores},
-  timestamp = {2011.10.06}
+@InProceedings{buchoux2008deployment,
+  Title                    = {Deployment of keystroke analysis on a smartphone},
+  Author                   = {Buchoux, A and Clarke, N L},
+  Booktitle                = {Australian Information Security Management Conference},
+  Year                     = {2008},
+  Pages                    = {48},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
 }
 
-@INPROCEEDINGS{SriramaETAL:MWSP.06,
-  author = {Satish Narayana Srirama and Matthias Jarke and Wolfgang Prinz},
-  title = {Mobile Web Service provisioning},
-  booktitle = {AICT-ICIW '06: Advanced Int. Conf. on Telecommunications and Int.
-	Conf. on Internet and Web Applications and Services},
-  year = {2006},
-  pages = {120},
-  publisher = {IEEE Computer Society},
-  isbn = {0-7695-2522-9},
-  owner = {srirama},
-  timestamp = {2011.02.13}
+@InProceedings{derawi2010unobtrusive,
+  Title                    = {Unobtrusive user-authentication on mobile phones using biometric gait recognition},
+  Author                   = {Derawi, Mohammad Omar and Nickel, Claudia and Bours, Patrick and Busch, Christoph},
+  Booktitle                = {Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP), 2010 Sixth International Conference on},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {306--311},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
 }
+
+@InProceedings{feng2012continuous,
+  Title                    = {Continuous mobile authentication using touchscreen gestures},
+  Author                   = {Feng, Tao and Liu, Ziyi and Kwon, Kyeong-An and Shi, Weidong and Carbunar, Bogdan and Jiang, Yifei and Nguyen, Nhung},
+  Booktitle                = {Homeland Security (HST), 2012 IEEE Conference on Technologies for},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {451--456},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
+}
+
+@InProceedings{jansen2003authenticating,
+  Title                    = {Authenticating users on handheld devices},
+  Author                   = {Jansen, Wayne},
+  Booktitle                = {Proceedings of the Canadian Information Technology Security Symposium},
+  Year                     = {2003},
+  Pages                    = {4-6},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.20}
+}
+
+@InProceedings{li2013unobservable,
+  Title                    = {Unobservable Re-authentication for Smartphones.},
+  Author                   = {Li, Lingjun and Zhao, Xinxin and Xue, Guoliang},
+  Booktitle                = {NDSS},
+  Year                     = {2013},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
+}
+
+@InProceedings{lin2012new,
+  Title                    = {A new non-intrusive authentication method based on the orientation sensor for smartphone users},
+  Author                   = {Lin, Chien-Cheng and Liang, Deron and Chang, Chin-Chun and Yang, Ching-Han},
+  Booktitle                = {Software Security and Reliability (SERE), 2012 IEEE Sixth International Conference on},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {245--252},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
+}
+
+@InProceedings{marques2013under,
+  Title                    = {Under the table: Tap authentication for smartphones},
+  Author                   = {Marques, Diogo and Guerreiro, Tiago and Duarte, Lu{\'\i}s and Carri{\c{c}}o, Lu{\'\i}s},
+  Booktitle                = {Proceedings of the 27th International BCS Human Computer Interaction Conference},
+  Year                     = {2013},
+  Organization             = {British Computer Society},
+  Pages                    = {33},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.22}
+}
+
+@Article{negara2012arm,
+  Title                    = {Arm’s flex when responding call for implicit user authentication in smartphone},
+  Author                   = {Negara, Ali Fahmi Perwira and Kodirov, Elyor and Abdullah, Mohd Fikri Azli and Choi, Deok-Jai and Lee, Guee-Sang and Sayeed, Shohel},
+  Journal                  = {Int. J. Secur. Its Appl},
+  Year                     = {2012},
+  Pages                    = {879--83},
+  Volume                   = {6},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.22}
+}
+
+@InProceedings{ritter2013miba,
+  Title                    = {Miba: Multitouch image-based authentication on smartphones},
+  Author                   = {Ritter, Daniel and Schaub, Florian and Walch, Marcel and Weber, Michael},
+  Booktitle                = {CHI'13 Extended Abstracts on Human Factors in Computing Systems},
+  Year                     = {2013},
+  Organization             = {ACM},
+  Pages                    = {787--792},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.22}
+}
+
+@InProceedings{stein2012fingerphoto,
+  Title                    = {Fingerphoto recognition with smartphone cameras},
+  Author                   = {Stein, Chris and Nickel, Claudia and Busch, Christoph},
+  Booktitle                = {Biometrics Special Interest Group (BIOSIG), 2012 BIOSIG-Proceedings of the International Conference of the},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {1--12},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
+}
+
+@Article{takamizawa2012authentication,
+  Title                    = {Authentication system using location information on ipad or smartphone},
+  Author                   = {Takamizawa, Hideyuki and Tanaka, Noriko},
+  Journal                  = {International Journal of Computer Theory and Engineering},
+  Year                     = {2012},
+  Number                   = {2},
+  Pages                    = {153--157},
+  Volume                   = {4},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.05.21}
+}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
 
 @comment{jabref-meta: selector_publisher:}
 
 @comment{jabref-meta: selector_author:}
-
-@comment{jabref-meta: selector_journal:}
-
-@comment{jabref-meta: selector_keywords:}
 

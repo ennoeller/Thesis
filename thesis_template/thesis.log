@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  27 APR 2015 19:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  20 JUL 2015 23:18
 entering extended mode
 **thesis.tex
 
@@ -386,8 +386,6 @@ is.aux
 e_page/stardard_page.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\0_fr
 ontmatter/abstract.aux)
-(C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\0_fr
-ontmatter/acknowledgement.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\1_in
 troduction/introduction.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\2/st
@@ -483,7 +481,10 @@ ontmatter/abstract.tex [2
 
 ])
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
-is.toc [3
+is.toc
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+ [3
 \FN@pp@footnotehinttrue 
 
 
@@ -498,101 +499,141 @@ is.lof)
 ] [6
 
 ]
-(C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\0_fr
-ontmatter/acknowledgement.tex [1
-
-])
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\1_in
-troduction/introduction.tex [2
-
+troduction/introduction.tex
+ 1.
+) [1
 
 
 ]
- 1.
-) [3]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\2/st
-ateofart.tex [4
+ateofart.tex [2
 
 
 
 ]
  2.
-[5]) [6]
+[3]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [4]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ¬ in font cmbx12!
+Missing character: There is no ¥ in font cmbx12!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [5]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [6]) [7]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/re
-searchquestion.tex
- 3.
-
-Package natbib Warning: Citation `chen2000survey' on page 7 undefined on input 
-line 36.
-
-) [7
+searchquestion.tex [8
 
 
 
 ]
+ 3.
+
+Package natbib Warning: Citation `chen2000survey' on page 9 undefined on input 
+line 36.
+
+) [9]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/co
-ntributions.tex [8
+ntributions.tex [10
 
 
 
 ]
  4.
-) [9]
+) [11]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\4/ca
-sestudies.tex [10
+sestudies.tex [12
 
 
 
 ]
  5.
-) [11]
+) [13]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\5/co
-nclusions.tex [12
+nclusions.tex [14
 
 
 
 ]
  6.
-) [13]
+) [15]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\6/re
-latedwork.tex [14
+latedwork.tex [16
 
 
 
 ]
  7.
-) [15]
+) [17]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\6/fu
-tureresearch.tex [16
+tureresearch.tex [18
 
 
 
 ]
  8.
-) [17]
+) [19]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\7/ee
-stiabstract.tex [18
+stiabstract.tex [20
 
 
 
 ]
  9.
-) [19]
+) [21]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.bbl
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.brf)
 \tf@brf=\write7
- [20
+ [22
 
 
-])
+]
+Missing character: There is no í in font cmr6!
+)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
-[21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
+[23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
 
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.aux
@@ -600,8 +641,6 @@ is.aux
 e_page/stardard_page.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\0_fr
 ontmatter/abstract.aux)
-(C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\0_fr
-ontmatter/acknowledgement.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\1_in
 troduction/introduction.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\2/st
@@ -620,22 +659,28 @@ latedwork.aux)
 tureresearch.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\7/ee
 stiabstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C21CFCE2E29E1409B71B36E90D08BE46;1810.
-Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+(rerunfilecheck)             Checksum: 5443E0391E8FE1BC6D6A787EAEA4777F;2790.
+
+
+Package rerunfilecheck Warning: File `thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis.brf':
+(rerunfilecheck)             Before: D9F2B037E4A6E3EA4758E077D9493553;790
+(rerunfilecheck)             After:  BA4E16C9B2EFF65787AE9C8FD6E363EA;983.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
  ) 
 Here is how much of TeX's memory you used:
- 8099 strings out of 493921
- 129131 string characters out of 3144879
- 211785 words of memory out of 3000000
- 11124 multiletter control sequences out of 15000+200000
- 12135 words of font info for 45 fonts, out of 3000000 for 9000
+ 8223 strings out of 493921
+ 131349 string characters out of 3144879
+ 213609 words of memory out of 3000000
+ 11224 multiletter control sequences out of 15000+200000
+ 12948 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,12n,46p,1003b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,48p,1003b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
@@ -643,10 +688,11 @@ Here is how much of TeX's memory you used:
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (27 pages, 171430 bytes).
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (29 pages, 209303 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
