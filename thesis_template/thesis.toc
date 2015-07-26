@@ -11,26 +11,28 @@
 \contentsline {subsection}{\numberline {2.1.2}Service providers}{3}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.2.1}Google Identity Platform}{4}{subsubsection.2.1.2.1}
 \contentsline {subsubsection}{\numberline {2.1.2.2}Facebook SDK}{4}{subsubsection.2.1.2.2}
-\contentsline {section}{\numberline {2.2}Previous work}{4}{section.2.2}
+\contentsline {section}{\numberline {2.2}Previous research}{4}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Visual login}{4}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Tap pattern}{4}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Fingerphoto recognition}{5}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Token-based authentication}{5}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Arm´s flex}{5}{subsection.2.2.5}
 \contentsline {subsection}{\numberline {2.2.6}Multitouch image-based authentication}{5}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Continous authentication}{6}{subsection.2.2.7}
-\contentsline {subsubsection}{\numberline {2.2.7.1}Gait recognition}{6}{subsubsection.2.2.7.1}
-\contentsline {subsubsection}{\numberline {2.2.7.2}Keystroke analysis}{6}{subsubsection.2.2.7.2}
-\contentsline {subsubsection}{\numberline {2.2.7.3}Location information}{6}{subsubsection.2.2.7.3}
-\contentsline {subsubsection}{\numberline {2.2.7.4}Orientation sensor}{7}{subsubsection.2.2.7.4}
-\contentsline {subsubsection}{\numberline {2.2.7.5}TouchScreen gestures}{7}{subsubsection.2.2.7.5}
-\contentsline {section}{\numberline {2.3}Summary}{7}{section.2.3}
+\contentsline {section}{\numberline {2.3}Continous authentication}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Gait recognition}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Keystroke analysis}{6}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Location information}{6}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Orientation sensor}{7}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}TouchScreen gestures}{7}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Summary}{7}{section.2.4}
 \contentsline {chapter}{\numberline {3}Problem Statement}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Research Question}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Summary}{9}{section.3.2}
+\contentsline {section}{\numberline {3.2}Summary}{10}{section.3.2}
 \contentsline {chapter}{\numberline {4}Your Contribution}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Your Brilliant Ideas ...}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Summary}{11}{section.4.2}
+\contentsline {section}{\numberline {4.1}Short description of the solution}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Android lockpattern}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Supporting Multiple Users}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary}{12}{section.4.4}
 \contentsline {chapter}{\numberline {5}Case Studies}{13}{chapter.5}
 \contentsline {section}{\numberline {5.1}Case of Study...}{13}{section.5.1}
 \contentsline {section}{\numberline {5.2}Summary}{13}{section.5.2}
@@ -38,4 +40,4 @@
 \contentsline {chapter}{\numberline {7}Related Work}{17}{chapter.7}
 \contentsline {chapter}{\numberline {8}Future Research Directions}{19}{chapter.8}
 \contentsline {chapter}{\numberline {9}Sisukokkuv\~{o}te}{21}{chapter.9}
-\contentsline {chapter}{Bibliography}{23}{chapter*.3}
+\contentsline {chapter}{Bibliography}{23}{chapter*.4}

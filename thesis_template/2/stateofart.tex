@@ -32,10 +32,7 @@ Google is providing android developers with an application programming interface
 \subsubsection{Facebook SDK}
 Facebook has a software development kit (SDK) for android developers. Just as with Google API, the SDK allows authentication via Facebook account and also provides more services - sharing on Facebook, sending application invites via Facebook, etc. \cite{facebooksdk}
 
-%\subsection{Internal applicatoin coding}
-%Android SDK includes many ways for storing data in %android smartphones internally. Developers can code %the application to store credentials in an internal %database, applications private preferences file or %even in a plain text document. On application startup %they will check if anything is present in a selected  %source and continue authentication if so.
-
-\section{Previous work}
+\section{Previous research}
 
 \subsection{Visual login}
 Visual login refers to a class of mechanisms that rely on the selection of icons or photo images to produce a
@@ -56,23 +53,23 @@ Authentication on smartphones does not have to include doing something to or wit
 \subsection{Multitouch image-based authentication}
 Multitouch image-based authentication password can consist of multiple rounds, where in each round the user can mark multiple points on an image. Click points have the advantage that they can be entered quickly,  even with multiple fingers simultaneously, while drawing complex patterns requires more time. Multitouch authentication uses background images as cues and determines the image for the next round based on the user’s input in the current round. Thus, the user can instantly recognize if the points selected in the previous round were correct or wrong (expected vs. unexpected image in next round). A back button allows for correction of errors. Each image should also only appear once in a password sequence to prevent memory interference between two instances of the same image. \cite{ritter2013miba}
 
-\subsection{Continous authentication}
+\section{Continous authentication}
 It is not always good to have a phone authenticate the user once and let him keep using the phone till it gets locked automatically by a timer or physically by the user. Hence there are methods that monitor the phone even when the phone is unlocked and only when there is sufficient evidence that the current user is not the smartphone owner, traditional user authentication is activated. 
 
-\subsubsection{Gait recognition}
+\subsection{Gait recognition}
 The term gait recognition describes a biometric method
 which allows an automatic verification of the identity of a person by the way he walks. Gait recognition is based on wearing motion recording sensors on the body in different places: on the waist, in pockets. The wearable sensors can be accelerometers (measuring acceleration), gyro sensors (measuring rotation and number of degrees per second of rotation), force sensors (measuring the force when walking) etc. \cite{derawi2010unobtrusive}
 
-\subsubsection{Keystroke analysis}
+\subsection{Keystroke analysis}
 This method of authentication analysis the detailed timing information that describes exactly when each key was pressed and when it was released by the person typing. \cite{buchoux2008deployment}
 
-\subsubsection{Location information}
+\subsection{Location information}
 Phones and tablets nowadays come with built-in GPS systems. GPS individually or in cooperation with cell towers allows a phone to acquire its current location which is analysed against previous data.  \cite{takamizawa2012authentication}
 
-\subsubsection{Orientation sensor}
+\subsection{Orientation sensor}
 A user has a unique way to hold and operate his/her smartphone while working on some applications and such behavioral biometrics can be captured from the readings of the orientation sensor. User’s behavioral biometrics of up-down flicks and left-right flicks from the orientation sensor are monitored to authenticate. \citep{lin2012new}
 
-\subsubsection{TouchScreen gestures}
+\subsection{TouchScreen gestures}
 As long as the smartphone is used, gestures are monitored to authenticate the user continuously.
 Continuous authentication in done on the background using intercepted touch data from
 normal user-smartphone interactions. The detection approach is invoked on-demand whenever touch inputs are received and is transparent to the smartphone user. Selected touch gesture information are collected including gesture type, X and Y coordinates, directions of the finger motion, finger motion speed, pressure at each sampled touch point and the distance between multi-touch points. In total, there are 53 features for each touch gesture. The six most frequent and useful gestures: down to up swipe, up to down swipe, left to right swipe, right to left swipe, zoom-in, and zoom-out. Since a smartphone user may apply different levels of touch pressure at different stages of a touch gesture, they are divided into three segments, (i) the
@@ -81,7 +78,6 @@ is the longest segment and (iii) the end of a touch motion. \cite{feng2012contin
 
 \section{Summary}
 The world of android and mobile in general is filled with means to authenticate the user. All of the methods discussed have their advantages and disadvantages, but they all serve the same purpose of keeping our device and data secure.
-
 
 %add figures
 %\begin{figure}
