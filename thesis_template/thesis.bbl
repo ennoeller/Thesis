@@ -82,4 +82,12 @@ L.~Li, X.~Zhao, G.~Xue, Unobservable re-authentication for smartphones., in:
 \href{http://www.extremetech.com/computing/185937-in-2015-tablet-sales-will-finally-surpass-pcs-fulfilling-steve-jobs-post-pc-prophecy}{[link]}.
 \newline\urlprefix\url{http://www.extremetech.com/computing/185937-in-2015-tablet-sales-will-finally-surpass-pcs-fulfilling-steve-jobs-post-pc-prophecy}
 
+\bibitem{sqlite}
+\href{https://www.sqlite.org/}{[link]}.
+\newline\urlprefix\url{https://www.sqlite.org/}
+
+\bibitem{contentprovider}
+\href{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html}{[link]}.
+\newline\urlprefix\url{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html}
+
 \end{thebibliography}

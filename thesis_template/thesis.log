@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  27 JUL 2015 00:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  28 JUL 2015 00:37
 entering extended mode
 **thesis.tex
 
@@ -581,60 +581,81 @@ ntributions.tex
 
 
 
-] <images/lockpattern.png, id=326, 542.025pt x 963.6pt>
+] <images/lockpattern.png, id=338, 542.025pt x 963.6pt>
 File: images/lockpattern.png Graphic file (type png)
 
 <use images/lockpattern.png>
 Package pdftex.def Info: images/lockpattern.png used on input line 33.
 (pdftex.def)             Requested size: 144.40024pt x 256.70549pt.
-) [12 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_templat
-e/images/lockpattern.png>]
+ [12 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+/images/lockpattern.png>]
+<images/componentdiagram.png, id=346, 426.09187pt x 36.88782pt>
+File: images/componentdiagram.png Graphic file (type png)
+
+<use images/componentdiagram.png>
+Package pdftex.def Info: images/componentdiagram.png used on input line 54.
+(pdftex.def)             Requested size: 383.47913pt x 33.1987pt.
+
+<images/classdiagram.png, id=348, 592.46344pt x 283.81032pt>
+File: images/classdiagram.png Graphic file (type png)
+
+<use images/classdiagram.png>
+Package pdftex.def Info: images/classdiagram.png used on input line 63.
+(pdftex.def)             Requested size: 592.46199pt x 283.80962pt.
+
+Overfull \hbox (179.89703pt too wide) in paragraph at lines 63--64
+ [] 
+ []
+
+[13 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
+images/componentdiagram.png>]) [14 <C:/Users/Enno/Documents/#Thesis_Paper/Thesi
+sLatexTemplate/thesis_template/images/classdiagram.png>]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\4/ca
 sestudies.tex
  5.
-) [13
+) [15
 
 
 
 ]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\5/co
-nclusions.tex [14
+nclusions.tex [16
 
 
 
 ]
  6.
-) [15]
+) [17]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\6/re
-latedwork.tex [16
+latedwork.tex [18
 
 
 
 ]
  7.
-) [17]
+) [19]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\6/fu
-tureresearch.tex [18
+tureresearch.tex [20
 
 
 
 ]
  8.
-) [19]
+) [21]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\7/ee
-stiabstract.tex [20
+stiabstract.tex [22
 
 
 
 ]
  9.
-) [21]
+) [23]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.bbl
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.brf)
 \tf@brf=\write7
- [22
+ [24
 
 
 ]
@@ -648,7 +669,7 @@ fulfilling-[]steve-[]jobs-[]post-[]pc-[]prophecy$[]
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
- [23]
+ [25]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
 
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
@@ -677,32 +698,45 @@ tureresearch.aux)
 stiabstract.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 131C051681B2D4C381C6BA3C9DC7E52A;2880.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 53FA10E07A0FD9917F36E4B79463DC47;3018
+(rerunfilecheck)             After:  8D672D0B87B207D4DDF08194A437E10B;3018.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: AFC58E2F1A27E9E374D48833F4D287AD;985.
+(rerunfilecheck)             Checksum: 472AFB514004BC5B2E2B5465473FDA1B;1082.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  ) 
 Here is how much of TeX's memory you used:
- 8303 strings out of 493921
- 132474 string characters out of 3144879
- 215879 words of memory out of 3000000
- 11293 multiletter control sequences out of 15000+200000
+ 8338 strings out of 493921
+ 133123 string characters out of 3144879
+ 215985 words of memory out of 3000000
+ 11317 multiletter control sequences out of 15000+200000
  13256 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,12n,48p,1003b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (29 pages, 279797 bytes).
+pdfTeX warning (dest): name{chapter*.5} has been referenced but does not exis
+t, replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (31 pages, 336929 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

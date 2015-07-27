@@ -37,7 +37,37 @@ As mentioned in the previous section a pattern is used to protect the credential
 Android lockpattern is known to users and is very easy to understand. Typing is taken out of the authentication process, which reduces the amount of errors made, and therefore used in this solution.
 
 \section{Supporting Multiple Users}
-The key factor what makes it different from previous solutions is the support for multiple users. Credentials for user authentication is kept in a local database accessed only by the application.
+The key factor what makes it different from previous solutions is the support for multiple users and multiple accounts per user. Mobile devices are commonly personal, but tablets in the other hand could be used in a household by the whole family. Needless to say that having to authenticate numerous times during a day might be a pain. 
+
+\section{Data storage}
+Every android comes with built in database system - SQLite \cite{sqlite}. It is easy to use, yet powerful to handle large amounts of data. Though no device will ever have the amount of users to even slightly test the database system, the benefit of using it is the simplicity and scalability allowing future changes in the database without losing any data already stored.
+
+Since the library itself does not directly save data or query for it from the database, an Android component Content Provider \cite{contentprovider} is used. It manages access to the data, encapsulates it and provides mechanisms for defining data security. Content Providers can be used in two ways: provide access to it for all applications or just the one with permissions. In this case only the application intended to use it is given permissions declining any intruders from sniffing around.
+
+\section{Structure of the library}
+This section will go more specific into the structure, classes and flow of the library to give insight of how it works.
+
+As mentioned numerous times previously, this solution is a library for Android applications. To be effective in the world of coding, reusing code made by self or others is essential. The same rule is implied here by using a library that withdraws the lockpattern function from Android source code. That is to say amongst other libraries used to create the final product of an application, these two libraries would be used in an application component tree as shown in the Figure 4.2.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.9]{images/componentdiagram.png}
+\caption{Example of application component diagram} \label{fig:component diagram} 
+\end{center}
+\end{figure}
+
+The code within the library is somewhat sectioned: interface to the library, activities/visual presentation, content provider and database management. The most substantiate part of the code is database management with the highest complexity giving  the library flexibility. The database currently is located internally in the device, but the code is designed to allow moving it to another path on the device or entirely off to a cloud. All the data columns are defined in a "database contract" for easy access and modification, the database will automatically update itself if the underlying data model is changed and using singleton pattern only one instance of the database can run at any given time to prevent data corruption. The database management classe including the other classe can be seen in the class diagram in the Figure 4.3.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=1]{images/classdiagram.png}
+\caption{Class diagram of the library} \label{fig:class diagram} 
+\end{center}
+\end{figure}
+
+The code within the library can also be divided into sections: interface to the library, activities/visual presentation, content provider and database management. It may seem much for so trivial task, every little component serves its purpose to 
+
+Though applications and libraries are developed for present requirements, the future can not be foreseen and should always be somewhat considered. To make this library flexible to unseen changes design patterns are used. 
 
 \section{Summary}
 Summarize the chapter with at least two paragraphs.
