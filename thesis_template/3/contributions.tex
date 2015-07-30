@@ -60,7 +60,7 @@ The code within the library is somewhat sectioned: interface to the library, act
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=1]{images/classdiagram.png}
+\includegraphics[scale=0.7]{images/classdiagram.png}
 \caption{Class diagram of the library} \label{fig:class diagram} 
 \end{center}
 \end{figure}
@@ -68,6 +68,45 @@ The code within the library is somewhat sectioned: interface to the library, act
 The code within the library can also be divided into sections: interface to the library, activities/visual presentation, content provider and database management. It may seem much for so trivial task, every little component serves its purpose to 
 
 Though applications and libraries are developed for present requirements, the future can not be foreseen and should always be somewhat considered. To make this library flexible to unseen changes design patterns are used. 
+
+\section{Flow of the library}
+To better understand what the library does, it is good to know the flow of it. For better visualisation a few diagrams are used.
+
+Often less is more, this is the design ideal behind the library. A user has two main actions that he will take to authenticate: register an a account and start authenticating with it. In other words, one action is to get the credentials of the account into the phones memory and the other to access them.
+ 
+When a user is logging into an application, using this library, he is asked whether he would like to save the credentials. If so he is taken to an activity to verify the password once more. When the password is verified, a new activity is presented to create a pattern for future authentication, and finally the credentials with the newly created pattern are stored to the database. This procedure is also illustrated on Figure 4.4 as a sequence diagram.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.9]{images/sequencediagramnew.png}
+\caption{Sequence diagram of registrating new account} \label{fig:sequence diagram} 
+\end{center}
+\end{figure}
+
+With one or more credentials stored in the database the user can authenticate using them. Either finishing the registration sequence or accessing the UsersListAcivity from the the application, the user has a list of stored credentials presented to him. Clicking on a chosen account the library will get the information from the database and ask the user to verify the account by inputting the pattern. On a successful verification the credentials are passed to the application. Illustrative sequence diagram is shown on the Figure 4.5.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.9]{images/sequencediagramauth.png}
+\caption{Sequence diagram of authentication} \label{fig:sequence diagram} 
+\end{center}
+\end{figure}
+
+\newpage
+The previous descriptions and sequence diagrams of the registration and authentication process give the idea of a successful interpretation of the library. Though the user is given choices to back out of the process or the process could be failed. A flow chart covering these possibilities is seen in the Figure 4.6.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{images/flowchart.png}
+\caption{Flow chart of registration and authentication process} 
+\label{fig:flow chart} 
+\end{center}
+\end{figure}
+
+\section{Importing the library into a project}
+This section is describing how to include this library in a project in terms of getting the library in a workspace and a code sample.
+
+
 
 \section{Summary}
 Summarize the chapter with at least two paragraphs.

@@ -151,6 +151,13 @@
   Timestamp                = {2015.07.20}
 }
 
+@Electronic{contentprovider,
+  Url                      = {http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.07.27}
+}
+
 @Electronic{facebooksdk,
   Title                    = {Facebook SDK},
   Url                      = {https://developers.facebook.com/docs/android},
@@ -165,6 +172,13 @@
 
   Owner                    = {Enno},
   Timestamp                = {2015.07.20}
+}
+
+@Electronic{sqlite,
+  Url                      = {https://www.sqlite.org/},
+
+  Owner                    = {Enno},
+  Timestamp                = {2015.07.27}
 }
 
 @Electronic{tabletsales,

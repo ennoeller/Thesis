@@ -34,12 +34,14 @@
 \contentsline {section}{\numberline {4.3}Supporting Multiple Users}{12}{section.4.3}
 \contentsline {section}{\numberline {4.4}Data storage}{12}{section.4.4}
 \contentsline {section}{\numberline {4.5}Structure of the library}{13}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{14}{section.4.6}
-\contentsline {chapter}{\numberline {5}Case Studies}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Case of Study...}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}Summary}{15}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusions}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}Related Work}{19}{chapter.7}
-\contentsline {chapter}{\numberline {8}Future Research Directions}{21}{chapter.8}
-\contentsline {chapter}{\numberline {9}Sisukokkuv\~{o}te}{23}{chapter.9}
-\contentsline {chapter}{Bibliography}{25}{chapter*.6}
+\contentsline {section}{\numberline {4.6}Flow of the library}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Importing the library into a project}{16}{section.4.7}
+\contentsline {section}{\numberline {4.8}Summary}{16}{section.4.8}
+\contentsline {chapter}{\numberline {5}Case Studies}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Case of Study...}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Summary}{19}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusions}{21}{chapter.6}
+\contentsline {chapter}{\numberline {7}Related Work}{23}{chapter.7}
+\contentsline {chapter}{\numberline {8}Future Research Directions}{25}{chapter.8}
+\contentsline {chapter}{\numberline {9}Sisukokkuv\~{o}te}{27}{chapter.9}
+\contentsline {chapter}{Bibliography}{29}{chapter*.9}

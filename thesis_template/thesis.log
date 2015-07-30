@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  28 JUL 2015 00:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  30 JUL 2015 14:39
 entering extended mode
 **thesis.tex
 
@@ -401,7 +401,11 @@ ateofart.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/re
 searchquestion.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/co
-ntributions.aux)
+ntributions.aux
+
+LaTeX Warning: Label `fig:sequence diagram' multiply defined.
+
+)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\4/ca
 sestudies.aux)
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\5/co
@@ -581,7 +585,7 @@ ntributions.tex
 
 
 
-] <images/lockpattern.png, id=338, 542.025pt x 963.6pt>
+] <images/lockpattern.png, id=351, 542.025pt x 963.6pt>
 File: images/lockpattern.png Graphic file (type png)
 
 <use images/lockpattern.png>
@@ -589,73 +593,105 @@ Package pdftex.def Info: images/lockpattern.png used on input line 33.
 (pdftex.def)             Requested size: 144.40024pt x 256.70549pt.
  [12 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/lockpattern.png>]
-<images/componentdiagram.png, id=346, 426.09187pt x 36.88782pt>
+<images/componentdiagram.png, id=359, 426.09187pt x 36.88782pt>
 File: images/componentdiagram.png Graphic file (type png)
 
 <use images/componentdiagram.png>
 Package pdftex.def Info: images/componentdiagram.png used on input line 54.
 (pdftex.def)             Requested size: 383.47913pt x 33.1987pt.
 
-<images/classdiagram.png, id=348, 592.46344pt x 283.81032pt>
+<images/classdiagram.png, id=361, 592.46344pt x 283.81032pt>
 File: images/classdiagram.png Graphic file (type png)
 
 <use images/classdiagram.png>
 Package pdftex.def Info: images/classdiagram.png used on input line 63.
-(pdftex.def)             Requested size: 592.46199pt x 283.80962pt.
+(pdftex.def)             Requested size: 414.72157pt x 198.66586pt.
 
-Overfull \hbox (179.89703pt too wide) in paragraph at lines 63--64
+Overfull \hbox (2.15662pt too wide) in paragraph at lines 63--64
  [] 
  []
 
 [13 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
-images/componentdiagram.png>]) [14 <C:/Users/Enno/Documents/#Thesis_Paper/Thesi
-sLatexTemplate/thesis_template/images/classdiagram.png>]
+images/componentdiagram.png>] [14 <C:/Users/Enno/Documents/#Thesis_Paper/Thesis
+LatexTemplate/thesis_template/images/classdiagram.png>]
+<images/sequencediagramnew.png, id=374, 457.71pt x 197.98969pt>
+File: images/sequencediagramnew.png Graphic file (type png)
+
+<use images/sequencediagramnew.png>
+Package pdftex.def Info: images/sequencediagramnew.png used on input line 81.
+(pdftex.def)             Requested size: 411.9352pt x 178.18906pt.
+
+<images/sequencediagramauth.png, id=375, 352.31625pt x 202.50656pt>
+File: images/sequencediagramauth.png Graphic file (type png)
+
+<use images/sequencediagramauth.png>
+Package pdftex.def Info: images/sequencediagramauth.png used on input line 90.
+(pdftex.def)             Requested size: 317.08168pt x 182.2542pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
+images/sequencediagramnew.png>]
+<images/flowchart.png, id=381, 356.83313pt x 399.74344pt>
+File: images/flowchart.png Graphic file (type png)
+
+<use images/flowchart.png>
+Package pdftex.def Info: images/flowchart.png used on input line 100.
+(pdftex.def)             Requested size: 356.83224pt x 399.74245pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [16 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_templat
+e/images/sequencediagramauth.png>] [17 <C:/Users/Enno/Documents/#Thesis_Paper/T
+hesisLatexTemplate/thesis_template/images/flowchart.png>]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\4/ca
-sestudies.tex
- 5.
-) [15
+sestudies.tex [18
 
 
 
 ]
+ 5.
+) [19]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\5/co
-nclusions.tex [16
+nclusions.tex [20
 
 
 
 ]
  6.
-) [17]
+) [21]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\6/re
-latedwork.tex [18
+latedwork.tex [22
 
 
 
 ]
  7.
-) [19]
+) [23]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\6/fu
-tureresearch.tex [20
+tureresearch.tex [24
 
 
 
 ]
  8.
-) [21]
+) [25]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\7/ee
-stiabstract.tex [22
+stiabstract.tex [26
 
 
 
 ]
  9.
-) [23]
+) [27]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.bbl
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.brf)
 \tf@brf=\write7
- [24
+ [28
 
 
 ]
@@ -669,7 +705,7 @@ fulfilling-[]steve-[]jobs-[]post-[]pc-[]prophecy$[]
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
- [25]
+ [29]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
 
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
@@ -705,38 +741,35 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 53FA10E07A0FD9917F36E4B79463DC47;3018
-(rerunfilecheck)             After:  8D672D0B87B207D4DDF08194A437E10B;3018.
+(rerunfilecheck)             Before: FD3BF19F97B4DB4A766CCABF563D66B0;3088
+(rerunfilecheck)             After:  DA5ABC4B91632F4FF91EFC4A5EFC5172;3175.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 472AFB514004BC5B2E2B5465473FDA1B;1082.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  ) 
 Here is how much of TeX's memory you used:
- 8338 strings out of 493921
- 133123 string characters out of 3144879
- 215985 words of memory out of 3000000
- 11317 multiletter control sequences out of 15000+200000
+ 8364 strings out of 493921
+ 133693 string characters out of 3144879
+ 216241 words of memory out of 3000000
+ 11332 multiletter control sequences out of 15000+200000
  13256 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,12n,48p,1003b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.5} has been referenced but does not exis
-t, replaced by a fixed one
-
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (31 pages, 336929 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (35 pages, 407932 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
