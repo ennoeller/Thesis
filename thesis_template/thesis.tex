@@ -12,9 +12,7 @@
 %: Style file for Latex
 % Most style definitions are in the external file PhDthesisPSnPDF.
 % In this template package, it can be found in ./Latex/Classes/
-\documentclass[twoside,11pt]{Latex/Classes/PhDthesisPSnPDF}
-
-\usepackage{wrapfig}
+\documentclass[oneside,12pt]{Latex/Classes/PhDthesisPSnPDF}
 
 %: Macro file for Latex
 % Macros help you summarise frequently repeated Latex commands.
@@ -22,65 +20,70 @@
 % An macro that you may use frequently is the figuremacro (see introduction.tex)
 \include{Latex/Macros/MacroFile1}
 
+\usepackage[a4paper, margin=2.54cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath} 
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{pgfplots}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor} 
+\usepackage{footmisc}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{lscape}
 
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
 
-%: ----------------------------------------------------------------------
-%:                  TITLE PAGE: name, degree,..
-% ----------------------------------------------------------------------
-% below is to generate the title page with crest and author name
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
 
-%if output to PDF then put the following in PDF header
-%DONT FORGET TO PUT THIS DATA
-\ifpdf  
-    \pdfinfo { /Title  (Title of your Thesis)
-               /Creator (TeX)
-               /Producer (pdfTeX)
-               /Author (YourName your@email.net)
-               /CreationDate (D:YYYYMMDDhhmmss)  %format D:YYYYMMDDhhmmss
-               /ModDate (D:YYYYMMDDhhmm)
-               /Subject (xyz)
-               /Keywords (add, your, keywords, here) }
-    \pdfcatalog { /PageMode (/UseOutlines)
-                  /OpenAction (fitbh)  }
-\fi
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
 
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
 
-\title{UNIVERSITY OF TARTU \\
-	FACULTY OF MATHEMATICS AND COMPUTER SCIENCE \\
-	Institute of Computer Science}
-
-
-
-% ----------------------------------------------------------------------
-% The section below defines www links/email for author and institutions
-% They will appear on the title page of the PDF and can be clicked
-\ifpdf
-  \author{\href{mailto:email@ut.ee}{Your Name}}
-%  \cityofbirth{born in XYZ} % uncomment this if your university requires this
-%  % If city of birth is required, also uncomment 2 sections in PhDthesisPSnPDF
-%  % Just search for the "city" and you'll find them.
-  \collegeordept{\href{http://www.something.net}{CollegeOrDepartment}}
-  \university{\href{http://www.something.net}{University}}
-
-  % The crest is a graphics file of the logo of your research institution.
-  % Place it in ./0_frontmatter/figures and specify the width
-  \crest{\includegraphics[width=4cm]{logo}}
-  
-% If you are not creating a PDF then use the following. The default is PDF.
-\else
-  \author{YourName}
-%  \cityofbirth{born in XYZ}
-  \collegeordept{CollegeOrDept}
-  \university{University}
-  \crest{\includegraphics[width=4cm]{logo}}
-\fi
-
-%\renewcommand{\submittedtext}{change the default text here if needed}
-\degree{Philosophi\ae Doctor (PhD), DPhil,..}
-\degreedate{year month}
-
-
-% ----------------------------------------------------------------------
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}% list your attributes here
+}
        
 % turn of those nasty overfull and underfull hboxes
 \hbadness=10000
@@ -98,61 +101,24 @@
 
 \begin{document}
 
-
-
-
-%\language{english}
-
 % sets line spacing
 \renewcommand\baselinestretch{1.2}
 \baselineskip=18pt plus1pt
+\pagenumbering{gobble}
 
-
-%: ----------------------- generate cover page ------------------------
-
-%\maketitle  % command to print the title page with above variables
-
-
-%: ----------------------- cover page back side ------------------------
-% Your research institution may require reviewer names, etc.
-% This cover back side is required by Dresden Med Fac; uncomment if needed.
-
-%\newpage
-%\vspace{10mm}
-%1. Reviewer: Name
-
-%\vspace{10mm}
-%2. Reviewer: 
-
-%\vspace{20mm}
-%Day of the defense:
-
-%\vspace{20mm}
-%\hspace{70mm}Signature from head of PhD committee:
-
-
-%: ----------------------- Here comes the UT first page ------------------------
+%: ----------------------- UT cover page ------------------------
 
 \include{title_page/stardard_page}
 
 %: ----------------------- abstract ------------------------
 
-% Your institution may have specific regulations if you need an abstract and where it is to be placed in the document. The default here is just after title.
-
 \include{0_frontmatter/abstract}
+%\include{7/eestiabstract}
 
 % The original template provides and abstractseparate environment, if your institution requires them to be separate. I think it's easier to print the abstract from the complete thesis by restricting printing to the relevant page.
 % \begin{abstractseparate}
 %   \input{Abstract/abstract}
 % \end{abstractseparate}
-
-
-%: ----------------------- tie in front matter ------------------------
-
-%\frontmatter
-%\include{0_frontmatter/dedication}
-%\include{0_frontmatter/acknowledgement}
-
 
 %: ----------------------- contents ------------------------
 
@@ -164,7 +130,7 @@
 
 %: ----------------------- list of figures/tables ------------------------
 
-\listoffigures	% print list of figures
+%\listoffigures	% print list of figures
 
 %\listoftables  % print list of tables
 
@@ -195,6 +161,7 @@
 
 \renewcommand{\chaptername}{} % uncomment to print only "1" not "Chapter 1"
 
+\addtocontents{toc}{\protect\thispagestyle{empty}}
 
 %: ----------------------- subdocuments ------------------------
 
@@ -207,9 +174,8 @@
 \include{3/contributions}		% how the solution solved the problem - your solution
 \include{4/casestudies}			% functional scenario
 \include{5/conclusions}			% final conclusions
-\include{6/relatedwork}	                % related work
-\include{6/futureresearch}		% future research directions
-\include{7/eestiabstract}               % discussion of results
+%\include{6/futureresearch}		% future research directions
+%\include{7/eestiabstract}               % discussion of results
 
 
 
@@ -217,56 +183,22 @@
 %:                  BACK MATTER: appendices, refs,..
 % --------------------------------------------------------------
 
-% the back matter: appendix and references close the thesis
-
-
 %: ----------------------- bibliography ------------------------
 
-% The section below defines how references are listed and formatted
-% The default below is 2 columns, small font, complete author names.
-% Entries are also linked back to the page number in the text and to external URL if provided in the BibTex file.
+\bibliographystyle{abbrv}
+\bibliography{thesis}
 
-% PhDbiblio-url2 = names small caps, title bold & hyperlinked, link to page 
-%\begin{multicols}{2} % \begin{multicols}{ # columns}[ header text][ space]
-\begin{tiny} % tiny(5) < scriptsize(7) < footnotesize(8) < small (9)
+%: ----------------------- appendices --------------------------
 
-%\bibliographystyle{Latex/Classes/PhDbiblio-url2} % Title is link if provided
-%\renewcommand{\bibname}{References} % changes the header; default: Bibliography
+\include{9_backmatter/appendices}
 
-%\bibliography{9_backmatter/references} % adjust this to fit your BibTex file
+%: ----------------------- licence -----------------------------
 
+%\clearpage
 
-\bibliographystyle{elsarticle-num}	% references style
-\bibliography{thesis}			% references bibtex file  - utilize JabRef
+%\pagenumbering{gobble}
 
-\end{tiny}
-%\end{multicols}
-
-% --------------------------------------------------------------
-% Various bibliography styles exit. Replace above style as desired.
-
-% in-text refs: (1) (1; 2)
-% ref list: alphabetical; author(s) in small caps; initials last name; page(s)
-%\bibliographystyle{Latex/Classes/PhDbiblio-case} % title forced lower case
-%\bibliographystyle{Latex/Classes/PhDbiblio-bold} % title as in bibtex but bold
-%\bibliographystyle{Latex/Classes/PhDbiblio-url} % bold + www link if provided
-
-%\bibliographystyle{Latex/Classes/jmb} % calls style file jmb.bst
-% in-text refs: author (year) without brackets
-% ref list: alphabetical; author(s) in normal font; last name, initials; page(s)
-
-%\bibliographystyle{plainnat} % calls style file plainnat.bst
-% in-text refs: author (year) without brackets
-% (this works with package natbib)
-
-
-% --------------------------------------------------------------
-
-% according to Dresden med fac summary has to be at the end
-%\include{0_frontmatter/abstract}
-
-%: Declaration of originality
-%\include{9_backmatter/declaration}
+%\include{9_backmatter/licence}
 
 
 

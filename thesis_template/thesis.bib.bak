@@ -152,6 +152,7 @@
 }
 
 @Electronic{contentprovider,
+  Title                    = {ContentProvider},
   Url                      = {http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html},
 
   Owner                    = {Enno},
@@ -175,6 +176,7 @@
 }
 
 @Electronic{sqlite,
+  Title                    = {SQLite},
   Url                      = {https://www.sqlite.org/},
 
   Owner                    = {Enno},
@@ -182,6 +184,7 @@
 }
 
 @Electronic{tabletsales,
+  Title                    = {In 2015 tablet sales will finally surpass PCs, fulfilling Steve Jobs’ post-PC prophecy},
   Url                      = {http://www.extremetech.com/computing/185937-in-2015-tablet-sales-will-finally-surpass-pcs-fulfilling-steve-jobs-post-pc-prophecy},
 
   Owner                    = {Enno},

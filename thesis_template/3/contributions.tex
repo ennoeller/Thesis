@@ -19,11 +19,11 @@ In Chapter 2 multiple alternatives to automating authentication were discussed. 
 %: ----------------------- Mobile Cloud Middleware ------------------------
 
 \section{Short description of the solution}
-This solution is not an application being installed on a device, but is a library that developers can apply in their applications with very little coding. All needed to do is import the library into a project and refer to it.
+This solution provides a library that developers can apply in their applications with very little coding. All needed to do is import the library into a project and refer to it.
 
 The library provides easy registration for new credentials, storing them and retrieving for authentication. The user only inserts the credentials once and protects them with a pattern which is used for retrieving them. The pattern and the credentials are stored locally in a database, which is application specific and can only be accessed by it. 
 
-An exapmle project is used in this paper for demonstation puproses.
+An example project is used in this paper for demonstration purposes.
 
 \newpage
 
@@ -40,9 +40,9 @@ Android lockpattern is known to users and is very easy to understand. Typing is 
 The key factor what makes it different from previous solutions is the support for multiple users and multiple accounts per user. Mobile devices are commonly personal, but tablets in the other hand could be used in a household by the whole family. Needless to say that having to authenticate numerous times during a day might be a pain. 
 
 \section{Data storage}
-Every android comes with built in database system - SQLite \cite{sqlite}. It is easy to use, yet powerful to handle large amounts of data. Though no device will ever have the amount of users to even slightly test the database system, the benefit of using it is the simplicity and scalability allowing future changes in the database without losing any data already stored.
+Every android comes with built in database system - SQLite \footnote[6]{https://www.sqlite.org/}. It is easy to use, yet powerful to handle large amounts of data. Though no device will ever have the amount of users to even slightly test the database system, the benefit of using it is the simplicity and scalability allowing future changes in the database without losing any data already stored.
 
-Since the library itself does not directly save data or query for it from the database, an Android component Content Provider \cite{contentprovider} is used. It manages access to the data, encapsulates it and provides mechanisms for defining data security. Content Providers can be used in two ways: provide access to it for all applications or just the one with permissions. In this case only the application intended to use it is given permissions declining any intruders from sniffing around.
+Since the library itself does not directly save data or query for it from the database, an Android component Content Provider \footnote[7]{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html} is used. It manages access to the data, encapsulates it and provides mechanisms for defining data security. Content Providers can be used in two ways: provide access to it for all applications or just the one with permissions. In this case only the application intended to use it is given permissions declining any intruders from sniffing around.
 
 \section{Structure of the library}
 This section will go more specific into the structure, classes and flow of the library to give insight of how it works.
@@ -58,16 +58,22 @@ As mentioned numerous times previously, this solution is a library for Android a
 
 The code within the library is somewhat sectioned: interface to the library, activities/visual presentation, content provider and database management. The most substantiate part of the code is database management with the highest complexity giving  the library flexibility. The database currently is located internally in the device, but the code is designed to allow moving it to another path on the device or entirely off to a cloud. All the data columns are defined in a "database contract" for easy access and modification, the database will automatically update itself if the underlying data model is changed and using singleton pattern only one instance of the database can run at any given time to prevent data corruption. The database management classe including the other classe can be seen in the class diagram in the Figure 4.3.
 
+The code within the library can also be divided into sections: interface to the library, activities/visual presentation, content provider and database management. It may seem much for so trivial task, every little component serves its purpose to 
+
+Though applications and libraries are developed for present requirements, the future can not be foreseen and should always be somewhat considered. To make this library flexible to unseen changes design patterns are used. 
+
+\begin{landscape}
+
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.7]{images/classdiagram.png}
+\includegraphics[scale=1.1]{images/classdiagram.png}
 \caption{Class diagram of the library} \label{fig:class diagram} 
 \end{center}
 \end{figure}
 
-The code within the library can also be divided into sections: interface to the library, activities/visual presentation, content provider and database management. It may seem much for so trivial task, every little component serves its purpose to 
+\end{landscape}
 
-Though applications and libraries are developed for present requirements, the future can not be foreseen and should always be somewhat considered. To make this library flexible to unseen changes design patterns are used. 
+\newpage
 
 \section{Flow of the library}
 To better understand what the library does, it is good to know the flow of it. For better visualisation a few diagrams are used.
@@ -97,19 +103,61 @@ The previous descriptions and sequence diagrams of the registration and authenti
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=1]{images/flowchart.png}
+\includegraphics[scale=1.2]{images/flowchart.png}
 \caption{Flow chart of registration and authentication process} 
 \label{fig:flow chart} 
 \end{center}
 \end{figure}
 
+\newpage
+
 \section{Importing the library into a project}
-This section is describing how to include this library in a project in terms of getting the library in a workspace and a code sample.
+This section is describing how to include this library in a project in terms of getting the library in a workspace and the code necessary to run it. 
+
+In order to use this library, both this and the Android-Lockpattern library are needed. This library is accessible in the projects repository \footnote[8]{https://github.com/ennoeller/ThesisApi}, and also Android-Lockpatter library is accessible on github \footnote[9]{https://github.com/haibison/android-lockpattern}. For development, eclipse is needed, as these libraries only work there. Within eclipse, both libraries have to be imported as projects, alongside with application project, which will include them. 
+
+In order for the library to work, a few lines of code have to be added to the application project. One row needs to be added to the project properties file, also make sure that a reference to the library is there:
+
+\begin{lstlisting}
+manifestmerger.enabled=true
+android.library.reference.1=../ThesisApi
+\end{lstlisting} 
+	
+Example usage of the library in an activity would look something like this:
+
+\lstset{language=Java}
+
+\begin{lstlisting}
+import thesis.thesis.Commons;
+
+public class Main extends Commons {
+
+    @Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		userName = (EditText) findViewById(R.id.username);
+		passWord = (EditText) findViewById(R.id.password);
+		
+		Button bCallLibrary = (Button) findViewById(R.id.bCallLibrary);
+		bCallLibrary.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+
+				saveGetCredentials(userName.getText().toString(), passWord.getText().toString());
+			}
+		});	
+	}
+}
+\end{lstlisting}
+
 
 
 
 \section{Summary}
-Summarize the chapter with at least two paragraphs.
+A new mechanism for authentication was developed as a library for Android. It uses patterns and therefore is very easy to use and also supports multiple users. For the end users the flow is kept minimalistic to increase simplicity and transparency. Use in a project is made very simple with an interface, as can be seen from the sample code. 
+
+The next chapter discusses the method used for gathering feedback and analyses the results. 
 
 
 

@@ -1,93 +1,80 @@
 \begin{thebibliography}{10}
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\expandafter\ifx\csname href\endcsname\relax
-  \def\href#1#2{#2} \def\path#1{#1}\fi
-
-\bibitem{accountmanager}
-\href{http://developer.android.com/reference/android/accounts/AccountManager.html}{Android
-  accountmanager}.
-\newline\urlprefix\url{http://developer.android.com/reference/android/accounts/AccountManager.html}
-
-\bibitem{googleidentityplatform}
-\href{https://developers.google.com/identity/}{Google identity platform}.
-\newline\urlprefix\url{https://developers.google.com/identity/}
-
-\bibitem{facebooksdk}
-\href{https://developers.facebook.com/docs/android}{Facebook sdk}.
-\newline\urlprefix\url{https://developers.facebook.com/docs/android}
-
-\bibitem{jansen2003authenticating}
-W.~Jansen, Authenticating users on handheld devices, in: Proceedings of the
-  Canadian Information Technology Security Symposium, 2003, pp. 4--6.
-
-\bibitem{marques2013under}
-D.~Marques, T.~Guerreiro, L.~Duarte, L.~Carri{\c{c}}o, Under the table: Tap
-  authentication for smartphones, in: Proceedings of the 27th International BCS
-  Human Computer Interaction Conference, British Computer Society, 2013, p.~33.
-
-\bibitem{stein2012fingerphoto}
-C.~Stein, C.~Nickel, C.~Busch, Fingerphoto recognition with smartphone cameras,
-  in: Biometrics Special Interest Group (BIOSIG), 2012 BIOSIG-Proceedings of
-  the International Conference of the, IEEE, 2012, pp. 1--12.
 
 \bibitem{bojinov2011mobile}
-H.~Bojinov, D.~Boneh, Mobile token-based authentication on a budget, in:
-  Proceedings of the 12th Workshop on Mobile Computing Systems and
-  Applications, ACM, 2011, pp. 14--19.
-
-\bibitem{negara2012arm}
-A.~F.~P. Negara, E.~Kodirov, M.~F.~A. Abdullah, D.-J. Choi, G.-S. Lee,
-  S.~Sayeed, Arm’s flex when responding call for implicit user authentication
-  in smartphone, Int. J. Secur. Its Appl 6 (2012) 879--83.
-
-\bibitem{ritter2013miba}
-D.~Ritter, F.~Schaub, M.~Walch, M.~Weber, Miba: Multitouch image-based
-  authentication on smartphones, in: CHI'13 Extended Abstracts on Human Factors
-  in Computing Systems, ACM, 2013, pp. 787--792.
-
-\bibitem{derawi2010unobtrusive}
-M.~O. Derawi, C.~Nickel, P.~Bours, C.~Busch, Unobtrusive user-authentication on
-  mobile phones using biometric gait recognition, in: Intelligent Information
-  Hiding and Multimedia Signal Processing (IIH-MSP), 2010 Sixth International
-  Conference on, IEEE, 2010, pp. 306--311.
+H.~Bojinov and D.~Boneh.
+\newblock Mobile token-based authentication on a budget.
+\newblock In {\em Proceedings of the 12th Workshop on Mobile Computing Systems
+  and Applications}, pages 14--19. ACM, 2011.
 
 \bibitem{buchoux2008deployment}
-A.~Buchoux, N.~L. Clarke, Deployment of keystroke analysis on a smartphone, in:
-  Australian Information Security Management Conference, 2008, p.~48.
+A.~Buchoux and N.~L. Clarke.
+\newblock Deployment of keystroke analysis on a smartphone.
+\newblock In {\em Australian Information Security Management Conference},
+  page~48, 2008.
 
-\bibitem{takamizawa2012authentication}
-H.~Takamizawa, N.~Tanaka, Authentication system using location information on
-  ipad or smartphone, International Journal of Computer Theory and Engineering
-  4~(2) (2012) 153--157.
-
-\bibitem{lin2012new}
-C.-C. Lin, D.~Liang, C.-C. Chang, C.-H. Yang, A new non-intrusive
-  authentication method based on the orientation sensor for smartphone users,
-  in: Software Security and Reliability (SERE), 2012 IEEE Sixth International
-  Conference on, IEEE, 2012, pp. 245--252.
+\bibitem{derawi2010unobtrusive}
+M.~O. Derawi, C.~Nickel, P.~Bours, and C.~Busch.
+\newblock Unobtrusive user-authentication on mobile phones using biometric gait
+  recognition.
+\newblock In {\em Intelligent Information Hiding and Multimedia Signal
+  Processing (IIH-MSP), 2010 Sixth International Conference on}, pages
+  306--311. IEEE, 2010.
 
 \bibitem{feng2012continuous}
-T.~Feng, Z.~Liu, K.-A. Kwon, W.~Shi, B.~Carbunar, Y.~Jiang, N.~Nguyen,
-  Continuous mobile authentication using touchscreen gestures, in: Homeland
-  Security (HST), 2012 IEEE Conference on Technologies for, IEEE, 2012, pp.
-  451--456.
+T.~Feng, Z.~Liu, K.-A. Kwon, W.~Shi, B.~Carbunar, Y.~Jiang, and N.~Nguyen.
+\newblock Continuous mobile authentication using touchscreen gestures.
+\newblock In {\em Homeland Security (HST), 2012 IEEE Conference on Technologies
+  for}, pages 451--456. IEEE, 2012.
+
+\bibitem{jansen2003authenticating}
+W.~Jansen.
+\newblock Authenticating users on handheld devices.
+\newblock In {\em Proceedings of the Canadian Information Technology Security
+  Symposium}, pages 4--6, 2003.
 
 \bibitem{li2013unobservable}
-L.~Li, X.~Zhao, G.~Xue, Unobservable re-authentication for smartphones., in:
-  NDSS, 2013.
+L.~Li, X.~Zhao, and G.~Xue.
+\newblock Unobservable re-authentication for smartphones.
+\newblock In {\em NDSS}, 2013.
 
-\bibitem{tabletsales}
-\href{http://www.extremetech.com/computing/185937-in-2015-tablet-sales-will-finally-surpass-pcs-fulfilling-steve-jobs-post-pc-prophecy}{[link]}.
-\newline\urlprefix\url{http://www.extremetech.com/computing/185937-in-2015-tablet-sales-will-finally-surpass-pcs-fulfilling-steve-jobs-post-pc-prophecy}
+\bibitem{lin2012new}
+C.-C. Lin, D.~Liang, C.-C. Chang, and C.-H. Yang.
+\newblock A new non-intrusive authentication method based on the orientation
+  sensor for smartphone users.
+\newblock In {\em Software Security and Reliability (SERE), 2012 IEEE Sixth
+  International Conference on}, pages 245--252. IEEE, 2012.
 
-\bibitem{sqlite}
-\href{https://www.sqlite.org/}{[link]}.
-\newline\urlprefix\url{https://www.sqlite.org/}
+\bibitem{marques2013under}
+D.~Marques, T.~Guerreiro, L.~Duarte, and L.~Carri{\c{c}}o.
+\newblock Under the table: Tap authentication for smartphones.
+\newblock In {\em Proceedings of the 27th International BCS Human Computer
+  Interaction Conference}, page~33. British Computer Society, 2013.
 
-\bibitem{contentprovider}
-\href{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html}{[link]}.
-\newline\urlprefix\url{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html}
+\bibitem{negara2012arm}
+A.~F.~P. Negara, E.~Kodirov, M.~F.~A. Abdullah, D.-J. Choi, G.-S. Lee, and
+  S.~Sayeed.
+\newblock Arm’s flex when responding call for implicit user authentication in
+  smartphone.
+\newblock {\em Int. J. Secur. Its Appl}, 6:879--83, 2012.
+
+\bibitem{ritter2013miba}
+D.~Ritter, F.~Schaub, M.~Walch, and M.~Weber.
+\newblock Miba: Multitouch image-based authentication on smartphones.
+\newblock In {\em CHI'13 Extended Abstracts on Human Factors in Computing
+  Systems}, pages 787--792. ACM, 2013.
+
+\bibitem{stein2012fingerphoto}
+C.~Stein, C.~Nickel, and C.~Busch.
+\newblock Fingerphoto recognition with smartphone cameras.
+\newblock In {\em Biometrics Special Interest Group (BIOSIG), 2012
+  BIOSIG-Proceedings of the International Conference of the}, pages 1--12.
+  IEEE, 2012.
+
+\bibitem{takamizawa2012authentication}
+H.~Takamizawa and N.~Tanaka.
+\newblock Authentication system using location information on ipad or
+  smartphone.
+\newblock {\em International Journal of Computer Theory and Engineering},
+  4(2):153--157, 2012.
 
 \end{thebibliography}

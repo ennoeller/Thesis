@@ -1,7 +1,7 @@
 % this file is called up by thesis.tex
 % content in this file will be fed into the main document
 
-\chapter{State of the Art} % top level followed by section, subsection
+\chapter{A review in Social Media Authentication} % top level followed by section, subsection
 
 
 %transition between chapters, usually no more than two parragraphs
@@ -21,10 +21,26 @@
 Authentication process usability in this context refers to automating or simplifying the process of authenticating the user accessing the phone or features on the phone. This section discusses some of the tools used on mobile phones or tablets to simplify authentication.
 
 \subsection{Android AccountManager}
-Most of the applications are using Android AccountManager as a tool to automate authentication. It is a built in centralized registry that can hold user credentials or even authentication tokens which are generated via application server. Though it requires implementing various components, increasing the complexity, it is still a good method for single user device. For example Google, Facebook, and Microsoft Exchange each use this method. \cite{accountmanager}
+Most of the applications are using Android AccountManager \footnote[1]{Android AccountManager, http://developer.android.com/intl/zh-CN/reference/android/accounts/AccountManager.html}, see Figure 2.1, as a tool to automate authentication. It is a built in centralized registry that can hold user credentials or even authentication tokens which are generated via application server. Though it requires implementing various components, increasing the complexity, it is still a good method for single user device. For example Google \footnote[2]{Google Android Application, https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox}, Facebook \footnote[3]{Facebook Android Application, https://play.google.com/store/apps/details?id=com.facebook.katana}, and Microsoft Outlook \footnote[4]{Microsoft Outlook Android Application, https://play.google.com/store/apps/details?id=com.microsoft.office.outlook} each use this method. 
+
+\begin{figure}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.6\linewidth]{images/accountmanager.png}
+  \captionof{figure}{Android AccountManager}
+  \label{fig:android accountmanager}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.6\linewidth]{images/facebookgoogletwitter.png}
+  \captionof{figure}{Service providers}
+  \label{fig:google identity platform, facebook sdk}
+\end{minipage}
+\end{figure}
 
 \subsection{Service providers}
-The next most used method of authentication is provided by social media websites. These providers are giving developers the option to let users authenticate by using accounts on the social media websites. Users do not have to create new accounts to these sites, but will refer to their already existing accounts on social media as a way of registration. On android the user needs to have that social media application installed and logged in to use this method. The most known two providers are Google and Facebook.
+The next most used method of authentication is provided by social media websites. These providers are giving developers the option to let users authenticate by using accounts on the social media websites. Users do not have to create new accounts to these sites, but will refer to their already existing accounts on social media as a way of registration. On android the user needs to have that social media application installed and logged in to use this method. The most known two providers are Google and Facebook. An example of how service provider tools appear on an Application is on Figure 2.2.
 
 \subsubsection{Google Identity Platform}
 Google is providing android developers with an application programming interface (API) which allows users to register and authenticate using Google account, but also allows developers to integrate other Google services into their applications: payments via Google Wallet, sharing with Google+, saving files to Drive, etc. \cite{googleidentityplatform}
@@ -36,25 +52,25 @@ Facebook has a software development kit (SDK) for android developers. Just as wi
 
 \subsection{Visual login}
 Visual login refers to a class of mechanisms that rely on the selection of icons or photo images to produce a
-password value. Visual login is a knowledge-based approach like passwords. Instead of alphanumeric characters, users must remember image sequences. Visual images are presented to the user for selection by tiling a portion of the user’s graphical interface window with identically sized squares, grouped into a 5 x 6 matrix. The surface of each square displays a bit-mapped image or thumbnail of some picture supplied in a predefined digital format. Selecting the correct sequence of thumbnail images authenticates the user to the device. \cite{jansen2003authenticating}
+password value. Visual login is a knowledge-based approach like passwords. Instead of alphanumeric characters, users must remember image sequences. Visual images are presented to the user for selection by tiling a portion of the user's graphical interface window with identically sized squares, grouped into a 5 x 6 matrix. The surface of each square displays a bit-mapped image or thumbnail of some picture supplied in a predefined digital format. Selecting the correct sequence of thumbnail images authenticates the user to the device. \cite{jansen2003authenticating}
 
 \subsection{Tap pattern}
-Gesture interaction with mobile devices has become common-place. One class of gestures that is widely used is tapping. While key strokes are usually perceived as single events, taps have an implied duration in time. Single taps, long presses and double taps are common examples. These simple patterns can be detected efficiently with very crude algorithms, relying solely on timers. Tap patterns, however, can be more generally defined as a sequence of intervals of “on” and “off” times – that is, the ordered time distances between and within taps. \cite{marques2013under}
+Gesture interaction with mobile devices has become common-place. One class of gestures that is widely used is tapping. While key strokes are usually perceived as single events, taps have an implied duration in time. Single taps, long presses and double taps are common examples. These simple patterns can be detected efficiently with very crude algorithms, relying solely on timers. Tap patterns, however, can be more generally defined as a sequence of intervals of ''on'' and ''off'' times that is, the ordered time distances between and within taps. \cite{marques2013under}
 
 \subsection{Fingerphoto recognition}
 The intention of the fingerphoto recognition is that for authentication the user simply positions his finger close in front of the camera in order to capture a biometric sample. The algorithms for finger detection and quality assurance check continuously the preview images of the camera after the capture process has been initiated by the user. The results of the algorithms are calculated in real-time and are displayed on the graphical user interface. A photo is automatically taken when all criteria for the fingerphoto recognition are fulfilled. \cite{stein2012fingerphoto}
 
 \subsection{Token-based authentication}
-Authentication on smartphones does not have to include doing something to or with the device, instead it can involve a physical token. The token can be so small it could be carried on a key chain and it automatically unlocks the smartphone whenever its owner wants to use it. The token is based on magnetic fields detected by the smartphone’s compass or on an acoustic transmitter that generates a signal picked up by the handset’s microphone. All the user has to do is carry the token with him. \cite{bojinov2011mobile}
+Authentication on smartphones does not have to include doing something to or with the device, instead it can involve a physical token. The token can be so small it could be carried on a key chain and it automatically unlocks the smartphone whenever its owner wants to use it. The token is based on magnetic fields detected by the smartphone's compass or on an acoustic transmitter that generates a signal picked up by the handset's microphone. All the user has to do is carry the token with him. \cite{bojinov2011mobile}
 
-\subsection{Arm´s flex}
- One of the human behaviors considered being unique is arm’s flex. It is gestural pattern i.e. the way people bend their arm for picking a phone when responding to incoming calls. That arm’s flexing is considered as a subset of gesture pattern in lower limb gesture. Every person who bends their arm will have different strength measured by accelerometer using smartphone even if they own same arm´s flex pattern visually.\cite{negara2012arm}
+\subsection{Arm's flex}
+One of the human behaviors considered being unique is arm's flex. It is a gestural pattern i.e. the way people bend their arm for picking a phone when responding to incoming calls. That arm's flexing is considered as a subset of gesture pattern in lower limb gesture. Every person who bends their arm will have different strength measured by accelerometer using smartphone even if they own same arm's flex pattern visually.\cite{negara2012arm}
 
 \subsection{Multitouch image-based authentication}
-Multitouch image-based authentication password can consist of multiple rounds, where in each round the user can mark multiple points on an image. Click points have the advantage that they can be entered quickly,  even with multiple fingers simultaneously, while drawing complex patterns requires more time. Multitouch authentication uses background images as cues and determines the image for the next round based on the user’s input in the current round. Thus, the user can instantly recognize if the points selected in the previous round were correct or wrong (expected vs. unexpected image in next round). A back button allows for correction of errors. Each image should also only appear once in a password sequence to prevent memory interference between two instances of the same image. \cite{ritter2013miba}
+Multitouch image-based authentication password can consist of multiple rounds, where in each round the user can mark multiple points on an image. Click points have the advantage that they can be entered quickly,  even with multiple fingers simultaneously, while drawing complex patterns requires more time. Multitouch authentication uses background images as cues and determines the image for the next round based on the user's input in the current round. Thus, the user can instantly recognize if the points selected in the previous round were correct or wrong (expected vs. unexpected image in next round). A back button allows for correction of errors. Each image should also only appear once in a password sequence to prevent memory interference between two instances of the same image. \cite{ritter2013miba}
 
 \section{Continous authentication}
-It is not always good to have a phone authenticate the user once and let him keep using the phone till it gets locked automatically by a timer or physically by the user. Hence there are methods that monitor the phone even when the phone is unlocked and only when there is sufficient evidence that the current user is not the smartphone owner, traditional user authentication is activated. 
+It is not always good to have a phone authenticate the user once and let him keep using the phone till it gets locked automatically by a timer or physically by the user. Hence there are methods that monitor the phone even when the phone is unlocked and only when there is sufficient evidence that the current user is not the smartphone owner, traditional user authentication is activated. The next sections describe continous authentication methods.
 
 \subsection{Gait recognition}
 The term gait recognition describes a biometric method
@@ -67,7 +83,7 @@ This method of authentication analysis the detailed timing information that desc
 Phones and tablets nowadays come with built-in GPS systems. GPS individually or in cooperation with cell towers allows a phone to acquire its current location which is analysed against previous data.  \cite{takamizawa2012authentication}
 
 \subsection{Orientation sensor}
-A user has a unique way to hold and operate his/her smartphone while working on some applications and such behavioral biometrics can be captured from the readings of the orientation sensor. User’s behavioral biometrics of up-down flicks and left-right flicks from the orientation sensor are monitored to authenticate. \citep{lin2012new}
+A user has a unique way to hold and operate his/her smartphone while working on some applications and such behavioral biometrics can be captured from the readings of the orientation sensor. User's behavioral biometrics of up-down flicks and left-right flicks from the orientation sensor are monitored to authenticate. \citep{lin2012new}
 
 \subsection{TouchScreen gestures}
 As long as the smartphone is used, gestures are monitored to authenticate the user continuously.
@@ -77,17 +93,7 @@ beginning of a touch motion, (ii) the main touch motion, which
 is the longest segment and (iii) the end of a touch motion. \cite{feng2012continuous, li2013unobservable}
 
 \section{Summary}
-The world of android and mobile in general is filled with means to authenticate the user. All of the methods discussed have their advantages and disadvantages, but they all serve the same purpose of keeping our device and data secure.
-
-%add figures
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.65\textwidth]{2/figures/Cloud/funambolArchitecture.png}
-%\caption{Funambol architecture}
-%\label{fig:funambolArchitecture}
-%\end{figure}
+The world of android and mobile in general is filled with means to authenticate the user. All of the methods discussed have their advantages and disadvantages, but they all serve the same purpose of keeping our device and data secure. The most commonly used methods, Android AccountManager and service providers, accomplish the task of automating authentication well, but either have the user tie their account to some other social media or do not have the support for multiple users. There has been a lot research done on the authentication for mobile, with interesting methods being developed, but so far none of them is considering support for multiple users. The next chapter describes the problem in more detail.
 
 
-% ---------------------------------------------------------------------------
-% ----------------------- end of thesis sub-document ------------------------
-% --------------------------------------------------------------------------- 
+
