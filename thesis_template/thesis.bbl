@@ -63,6 +63,20 @@ D.~Ritter, F.~Schaub, M.~Walch, and M.~Weber.
 \newblock In {\em CHI'13 Extended Abstracts on Human Factors in Computing
   Systems}, pages 787--792. ACM, 2013.
 
+\bibitem{srirama2011zompopo}
+S.~N. Srirama, H.~Flores, and C.~Paniagua.
+\newblock Zompopo: Mobile calendar prediction based on human activities
+  recognition using the accelerometer and cloud services.
+\newblock In {\em Next Generation Mobile Applications, Services and
+  Technologies (NGMAST), 2011 5th International Conference on}, pages 63--69.
+  IEEE, 2011.
+
+\bibitem{srirama2012social}
+S.~N. Srirama, C.~Paniagua, and H.~Flores.
+\newblock Social group formation with mobile cloud services.
+\newblock {\em Service Oriented Computing and Applications}, 6(4):351--362,
+  2012.
+
 \bibitem{stein2012fingerphoto}
 C.~Stein, C.~Nickel, and C.~Busch.
 \newblock Fingerphoto recognition with smartphone cameras.

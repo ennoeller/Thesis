@@ -40,9 +40,9 @@ Android lockpattern is known to users and is very easy to understand. Typing is 
 The key factor what makes it different from previous solutions is the support for multiple users and multiple accounts per user. Mobile devices are commonly personal, but tablets in the other hand could be used in a household by the whole family. Needless to say that having to authenticate numerous times during a day might be a pain. 
 
 \section{Data storage}
-Every android comes with built in database system - SQLite \footnote[6]{https://www.sqlite.org/}. It is easy to use, yet powerful to handle large amounts of data. Though no device will ever have the amount of users to even slightly test the database system, the benefit of using it is the simplicity and scalability allowing future changes in the database without losing any data already stored.
+Every android comes with built in database system - SQLite \footnote[8]{https://www.sqlite.org/}. It is easy to use, yet powerful to handle large amounts of data. Though no device will ever have the amount of users to even slightly test the database system, the benefit of using it is the simplicity and scalability allowing future changes in the database without losing any data already stored.
 
-Since the library itself does not directly save data or query for it from the database, an Android component Content Provider \footnote[7]{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html} is used. It manages access to the data, encapsulates it and provides mechanisms for defining data security. Content Providers can be used in two ways: provide access to it for all applications or just the one with permissions. In this case only the application intended to use it is given permissions declining any intruders from sniffing around.
+Since the library itself does not directly save data or query for it from the database, an Android component Content Provider \footnote[9]{http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html} is used. It manages access to the data, encapsulates it and provides mechanisms for defining data security. Content Providers can be used in two ways: provide access to it for all applications or just the one with permissions. In this case only the application intended to use it is given permissions declining any intruders from sniffing around.
 
 \section{Structure of the library}
 This section will go more specific into the structure, classes and flow of the library to give insight of how it works.
@@ -114,7 +114,7 @@ The previous descriptions and sequence diagrams of the registration and authenti
 \section{Importing the library into a project}
 This section is describing how to include this library in a project in terms of getting the library in a workspace and the code necessary to run it. 
 
-In order to use this library, both this and the Android-Lockpattern library are needed. This library is accessible in the projects repository \footnote[8]{https://github.com/ennoeller/ThesisApi}, and also Android-Lockpatter library is accessible on github \footnote[9]{https://github.com/haibison/android-lockpattern}. For development, eclipse is needed, as these libraries only work there. Within eclipse, both libraries have to be imported as projects, alongside with application project, which will include them. 
+In order to use this library, both this and the Android-Lockpattern library are needed. This library is accessible in the projects repository \footnote[10]{https://github.com/ennoeller/ThesisApi}, and also Android-Lockpatter library is accessible on github \footnote[11]{https://github.com/haibison/android-lockpattern}. For development, eclipse is needed, as these libraries only work there. Within eclipse, both libraries have to be imported as projects, alongside with application project, which will include them. 
 
 In order for the library to work, a few lines of code have to be added to the application project. One row needs to be added to the project properties file, also make sure that a reference to the library is there:
 

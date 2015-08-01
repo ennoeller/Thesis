@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  1 AUG 2015 23:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  2 AUG 2015 00:43
 entering extended mode
 **thesis.tex
 
@@ -1222,18 +1222,9 @@ Package pdftex.def Info: images/facebookgoogletwitter.png used on input line 36
 
 
 
-]
-
-Package natbib Warning: Citation `googleidentityplatform' on page 3 undefined o
-n input line 46.
-
-
-Package natbib Warning: Citation `facebooksdk' on page 3 undefined on input lin
-e 49.
-
-[3 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/i
-mages/accountmanager.png> <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTem
-plate/thesis_template/images/facebookgoogletwitter.png>] [4] [5]) [6]
+] [3 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+/images/accountmanager.png> <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexT
+emplate/thesis_template/images/facebookgoogletwitter.png>] [4] [5]) [6]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/re
 searchquestion.tex
  3.
@@ -1249,7 +1240,7 @@ ntributions.tex
 
 
 
-] <images/lockpattern.png, id=320, 542.025pt x 963.6pt>
+] <images/lockpattern.png, id=328, 542.025pt x 963.6pt>
 File: images/lockpattern.png Graphic file (type png)
 
 <use images/lockpattern.png>
@@ -1257,7 +1248,7 @@ Package pdftex.def Info: images/lockpattern.png used on input line 33.
 (pdftex.def)             Requested size: 158.54164pt x 281.84819pt.
  [10 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/lockpattern.png>]
-<images/componentdiagram.png, id=329, 426.09187pt x 36.88782pt>
+<images/componentdiagram.png, id=337, 426.09187pt x 36.88782pt>
 File: images/componentdiagram.png Graphic file (type png)
 
 <use images/componentdiagram.png>
@@ -1265,7 +1256,7 @@ Package pdftex.def Info: images/componentdiagram.png used on input line 54.
 (pdftex.def)             Requested size: 383.47913pt x 33.1987pt.
  [11 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/componentdiagram.png>] [12]
-<images/classdiagram.png, id=342, 592.46344pt x 283.81032pt>
+<images/classdiagram.png, id=350, 592.46344pt x 283.81032pt>
 File: images/classdiagram.png Graphic file (type png)
 
 <use images/classdiagram.png>
@@ -1277,14 +1268,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
 images/classdiagram.png>]
-<images/sequencediagramnew.png, id=349, 457.71pt x 197.98969pt>
+<images/sequencediagramnew.png, id=357, 457.71pt x 197.98969pt>
 File: images/sequencediagramnew.png Graphic file (type png)
 
 <use images/sequencediagramnew.png>
 Package pdftex.def Info: images/sequencediagramnew.png used on input line 87.
 (pdftex.def)             Requested size: 411.9352pt x 178.18906pt.
 
-<images/sequencediagramauth.png, id=350, 352.31625pt x 202.50656pt>
+<images/sequencediagramauth.png, id=358, 352.31625pt x 202.50656pt>
 File: images/sequencediagramauth.png Graphic file (type png)
 
 <use images/sequencediagramauth.png>
@@ -1299,7 +1290,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/ima
 ges/sequencediagramnew.png>]
-<images/flowchart.png, id=357, 356.83313pt x 399.74344pt>
+<images/flowchart.png, id=365, 356.83313pt x 399.74344pt>
 File: images/flowchart.png Graphic file (type png)
 
 <use images/flowchart.png>
@@ -1344,9 +1335,6 @@ is.brf)
 
 ]) [22]
 No file 9_backmatter/appendices.tex.
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
 
@@ -1374,24 +1362,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1A0AEBA4757A4D848CACD7F43BEAB013;2977.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 4A0DD79BD7F16132F7A723B91E810E2E;871.
 
-
-Package rerunfilecheck Warning: File `thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `thesis.brf':
-(rerunfilecheck)             Before: D77AD8B89A1A40DCD29246943A404412;883
-(rerunfilecheck)             After:  718E8324A138F39A55A1DE0AC8476CE8;748.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
  ) 
 Here is how much of TeX's memory you used:
- 30375 strings out of 493921
- 686953 string characters out of 3144879
- 881880 words of memory out of 3000000
- 32922 multiletter control sequences out of 15000+200000
+ 30387 strings out of 493921
+ 687228 string characters out of 3144879
+ 881878 words of memory out of 3000000
+ 32930 multiletter control sequences out of 15000+200000
  21772 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,11n,77p,1380b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1413,9 +1396,9 @@ k\ljfour\jknappen\ec\dpi600\ecss1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Enno\AppData\Local\
 MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Enno\AppDa
 ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk>
-Output written on thesis.pdf (26 pages, 584612 bytes).
+Output written on thesis.pdf (26 pages, 587829 bytes).
 PDF statistics:
- 1090 PDF objects out of 1200 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
+ 1104 PDF objects out of 1200 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
  389 words of extra memory for PDF output out of 10000 (max. 10000000)
 

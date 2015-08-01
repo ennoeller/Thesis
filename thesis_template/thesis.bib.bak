@@ -118,6 +118,20 @@
   Timestamp                = {2015.05.22}
 }
 
+@Article{srirama2012social,
+  Title                    = {Social group formation with mobile cloud services},
+  Author                   = {Srirama, Satish Narayana and Paniagua, Carlos and Flores, Huber},
+  Journal                  = {Service Oriented Computing and Applications},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {351--362},
+  Volume                   = {6},
+
+  Owner                    = {Enno},
+  Publisher                = {Springer},
+  Timestamp                = {2015.08.02}
+}
+
 @InProceedings{stein2012fingerphoto,
   Title                    = {Fingerphoto recognition with smartphone cameras},
   Author                   = {Stein, Chris and Nickel, Claudia and Busch, Christoph},
@@ -141,54 +155,6 @@
 
   Owner                    = {Enno},
   Timestamp                = {2015.05.21}
-}
-
-@Electronic{accountmanager,
-  Title                    = {Android AccountManager},
-  Url                      = {http://developer.android.com/reference/android/accounts/AccountManager.html},
-
-  Owner                    = {Enno},
-  Timestamp                = {2015.07.20}
-}
-
-@Electronic{contentprovider,
-  Title                    = {ContentProvider},
-  Url                      = {http://developer.android.com/intl/zh-CN/reference/android/content/ContentProvider.html},
-
-  Owner                    = {Enno},
-  Timestamp                = {2015.07.27}
-}
-
-@Electronic{facebooksdk,
-  Title                    = {Facebook SDK},
-  Url                      = {https://developers.facebook.com/docs/android},
-
-  Owner                    = {Enno},
-  Timestamp                = {2015.07.20}
-}
-
-@Electronic{googleidentityplatform,
-  Title                    = {Google Identity Platform},
-  Url                      = {https://developers.google.com/identity/},
-
-  Owner                    = {Enno},
-  Timestamp                = {2015.07.20}
-}
-
-@Electronic{sqlite,
-  Title                    = {SQLite},
-  Url                      = {https://www.sqlite.org/},
-
-  Owner                    = {Enno},
-  Timestamp                = {2015.07.27}
-}
-
-@Electronic{tabletsales,
-  Title                    = {In 2015 tablet sales will finally surpass PCs, fulfilling Steve Jobs’ post-PC prophecy},
-  Url                      = {http://www.extremetech.com/computing/185937-in-2015-tablet-sales-will-finally-surpass-pcs-fulfilling-steve-jobs-post-pc-prophecy},
-
-  Owner                    = {Enno},
-  Timestamp                = {2015.07.26}
 }
 
 @comment{jabref-meta: selector_keywords:}

@@ -43,10 +43,10 @@ Most of the applications are using Android AccountManager \footnote[1]{Android A
 The next most used method of authentication is provided by social media websites. These providers are giving developers the option to let users authenticate by using accounts on the social media websites. Users do not have to create new accounts to these sites, but will refer to their already existing accounts on social media as a way of registration. On android the user needs to have that social media application installed and logged in to use this method. The most known two providers are Google and Facebook. An example of how service provider tools appear on an Application is on Figure 2.2.
 
 \subsubsection{Google Identity Platform}
-Google is providing android developers with an application programming interface (API) which allows users to register and authenticate using Google account, but also allows developers to integrate other Google services into their applications: payments via Google Wallet, sharing with Google+, saving files to Drive, etc. \cite{googleidentityplatform}
+Google is providing android developers with an application programming interface (API) which allows users to register and authenticate using Google account, but also allows developers to integrate other Google services into their applications: payments via Google Wallet, sharing with Google+, saving files to Drive, etc. \footnote[5]{https://developers.google.com/identity/}
 
 \subsubsection{Facebook SDK}
-Facebook has a software development kit (SDK) for android developers. Just as with Google API, the SDK allows authentication via Facebook account and also provides more services - sharing on Facebook, sending application invites via Facebook, etc. \cite{facebooksdk}
+Facebook has a software development kit (SDK) for android developers. Just as with Google API, the SDK allows authentication via Facebook account and also provides more services - sharing on Facebook, sending application invites via Facebook, etc. \footnote[6]{https://developers.facebook.com/docs/android}
 
 \section{Previous research}
 
@@ -64,7 +64,7 @@ The intention of the fingerphoto recognition is that for authentication the user
 Authentication on smartphones does not have to include doing something to or with the device, instead it can involve a physical token. The token can be so small it could be carried on a key chain and it automatically unlocks the smartphone whenever its owner wants to use it. The token is based on magnetic fields detected by the smartphone's compass or on an acoustic transmitter that generates a signal picked up by the handset's microphone. All the user has to do is carry the token with him. \cite{bojinov2011mobile}
 
 \subsection{Arm's flex}
-One of the human behaviors considered being unique is arm's flex. It is a gestural pattern i.e. the way people bend their arm for picking a phone when responding to incoming calls. That arm's flexing is considered as a subset of gesture pattern in lower limb gesture. Every person who bends their arm will have different strength measured by accelerometer using smartphone even if they own same arm's flex pattern visually.\cite{negara2012arm}
+One of the human behaviors considered being unique is arm's flex. It is a gestural pattern i.e. the way people bend their arm for picking a phone when responding to incoming calls. That arm's flexing is considered as a subset of gesture pattern in lower limb gesture. Every person who bends their arm will have different strength measured by accelerometer using smartphone even if they own same arm's flex pattern visually.\cite{negara2012arm, srirama2011zompopo}
 
 \subsection{Multitouch image-based authentication}
 Multitouch image-based authentication password can consist of multiple rounds, where in each round the user can mark multiple points on an image. Click points have the advantage that they can be entered quickly,  even with multiple fingers simultaneously, while drawing complex patterns requires more time. Multitouch authentication uses background images as cues and determines the image for the next round based on the user's input in the current round. Thus, the user can instantly recognize if the points selected in the previous round were correct or wrong (expected vs. unexpected image in next round). A back button allows for correction of errors. Each image should also only appear once in a password sequence to prevent memory interference between two instances of the same image. \cite{ritter2013miba}
@@ -74,7 +74,7 @@ It is not always good to have a phone authenticate the user once and let him kee
 
 \subsection{Gait recognition}
 The term gait recognition describes a biometric method
-which allows an automatic verification of the identity of a person by the way he walks. Gait recognition is based on wearing motion recording sensors on the body in different places: on the waist, in pockets. The wearable sensors can be accelerometers (measuring acceleration), gyro sensors (measuring rotation and number of degrees per second of rotation), force sensors (measuring the force when walking) etc. \cite{derawi2010unobtrusive}
+which allows an automatic verification of the identity of a person by the way he walks. Gait recognition is based on wearing motion recording sensors on the body in different places: on the waist, in pockets. The wearable sensors can be accelerometers (measuring acceleration), gyro sensors (measuring rotation and number of degrees per second of rotation), force sensors (measuring the force when walking) etc. \cite{derawi2010unobtrusive, srirama2012social}
 
 \subsection{Keystroke analysis}
 This method of authentication analysis the detailed timing information that describes exactly when each key was pressed and when it was released by the person typing. \cite{buchoux2008deployment}
