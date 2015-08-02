@@ -7,4 +7,5 @@ So far filled in:
 	Abstract,
 	State of the Art,
 	Problem Statement,
-	A bit of Contribution.
+	Contributions,
+	Case Study.
