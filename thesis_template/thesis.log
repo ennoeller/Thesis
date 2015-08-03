@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  3 AUG 2015 02:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  3 AUG 2015 13:28
 entering extended mode
 **thesis.tex
 
@@ -1210,7 +1210,7 @@ is.tocpdfTeX warning (ext4): destination with the same identifier (name{page.})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 ...erline {4}Your Contribution}{9}{chapter.4}
+l.32 ...{4.2}Android lockpattern}{10}{section.4.2}
                                                    [2
 
 
@@ -1225,6 +1225,10 @@ l.162 \mainmatter
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\1_in
 troduction/introduction.tex
  1.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 32.
+
 ) [1
 
 
@@ -1251,14 +1255,14 @@ Overfull \hbox (74.00247pt too wide) in paragraph at lines 24--24
 oogle.com/store/apps/details?id=com.microsoft.office.outlook| 
  []
 
-<images/accountmanager.png, id=268, 542.025pt x 963.6pt>
+<images/accountmanager.png, id=269, 542.025pt x 963.6pt>
 File: images/accountmanager.png Graphic file (type png)
 
 <use images/accountmanager.png>
 Package pdftex.def Info: images/accountmanager.png used on input line 30.
 (pdftex.def)             Requested size: 135.89185pt x 241.57576pt.
 
-<images/facebookgoogletwitter.png, id=269, 542.025pt x 963.6pt>
+<images/facebookgoogletwitter.png, id=270, 542.025pt x 963.6pt>
 File: images/facebookgoogletwitter.png Graphic file (type png)
 
 <use images/facebookgoogletwitter.png>
@@ -1287,7 +1291,7 @@ ntributions.tex
 
 
 
-] <images/lockpattern.png, id=348, 542.025pt x 963.6pt>
+] <images/lockpattern.png, id=347, 542.025pt x 963.6pt>
 File: images/lockpattern.png Graphic file (type png)
 
 <use images/lockpattern.png>
@@ -1295,7 +1299,7 @@ Package pdftex.def Info: images/lockpattern.png used on input line 33.
 (pdftex.def)             Requested size: 158.54164pt x 281.84819pt.
  [10 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/lockpattern.png>]
-<images/componentdiagram.png, id=357, 426.09187pt x 36.88782pt>
+<images/componentdiagram.png, id=356, 426.09187pt x 36.88782pt>
 File: images/componentdiagram.png Graphic file (type png)
 
 <use images/componentdiagram.png>
@@ -1303,7 +1307,7 @@ Package pdftex.def Info: images/componentdiagram.png used on input line 54.
 (pdftex.def)             Requested size: 383.47913pt x 33.1987pt.
  [11 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/componentdiagram.png>] [12]
-<images/classdiagram.png, id=370, 592.46344pt x 283.81032pt>
+<images/classdiagram.png, id=369, 592.46344pt x 283.81032pt>
 File: images/classdiagram.png Graphic file (type png)
 
 <use images/classdiagram.png>
@@ -1315,14 +1319,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
 images/classdiagram.png>]
-<images/sequencediagramnew.png, id=377, 457.71pt x 197.98969pt>
+<images/sequencediagramnew.png, id=376, 457.71pt x 197.98969pt>
 File: images/sequencediagramnew.png Graphic file (type png)
 
 <use images/sequencediagramnew.png>
 Package pdftex.def Info: images/sequencediagramnew.png used on input line 87.
 (pdftex.def)             Requested size: 411.9352pt x 178.18906pt.
 
-<images/sequencediagramauth.png, id=378, 352.31625pt x 202.50656pt>
+<images/sequencediagramauth.png, id=377, 352.31625pt x 202.50656pt>
 File: images/sequencediagramauth.png Graphic file (type png)
 
 <use images/sequencediagramauth.png>
@@ -1337,7 +1341,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/ima
 ges/sequencediagramnew.png>]
-<images/flowchart.png, id=385, 356.83313pt x 399.74344pt>
+<images/flowchart.png, id=384, 356.83313pt x 399.74344pt>
 File: images/flowchart.png Graphic file (type png)
 
 <use images/flowchart.png>
@@ -1359,7 +1363,7 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\4/ca
 sestudies.tex
  5.
-<images/nolibrary.png, id=437, 542.025pt x 963.6pt>
+<images/nolibrary.png, id=436, 542.025pt x 963.6pt>
 File: images/nolibrary.png Graphic file (type png)
  <use images/nolibrary.png>
 Package pdftex.def Info: images/nolibrary.png used on input line 40.
@@ -1369,14 +1373,14 @@ Package pdftex.def Info: images/nolibrary.png used on input line 40.
 
 
 
-] <images/reg.png, id=442, 1104.125pt x 1947.275pt>
+] <images/reg.png, id=441, 1104.125pt x 1947.275pt>
 File: images/reg.png Graphic file (type png)
  <use images/reg.png>
 Package pdftex.def Info: images/reg.png used on input line 47.
 (pdftex.def)             Requested size: 331.24005pt x 584.18701pt.
 
 [20 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
-images/nolibrary.png>] <images/auth.png, id=448, 1104.125pt x 1947.275pt>
+images/nolibrary.png>] <images/auth.png, id=447, 1104.125pt x 1947.275pt>
 File: images/auth.png Graphic file (type png)
 
 <use images/auth.png>
@@ -1397,7 +1401,7 @@ ps-converted-to.pdf files/question1/question1.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question1/question1-eps-converted-to.pdf, id=462, 361.35pt x 252.945pt>
+<files/question1/question1-eps-converted-to.pdf, id=461, 361.35pt x 252.945pt>
 File: files/question1/question1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question1/question1-eps-converted-to.pdf>
@@ -1409,18 +1413,14 @@ Package epstopdf Info: Source file: <files/question3/question3.eps>
 (epstopdf)                    size: 20795 bytes
 (epstopdf)             Output file: <files/question3/question3-eps-converted-to
 .pdf>
+(epstopdf)                    date: 2015-08-03 02:45:28
+(epstopdf)                    size: 8404 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question3/question3-e
 ps-converted-to.pdf files/question3/question3.eps>
 (epstopdf)             \includegraphics on input line 81.
-runsystem(epstopdf --outfile=files/question3/question3-eps-converted-to.pdf fil
-es/question3/question3.eps)...executed (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <files/question3/question3-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2015-08-03 02:45:28
-(epstopdf)                    size: 8404 bytes.
-
-<files/question3/question3-eps-converted-to.pdf, id=463, 361.35pt x 252.945pt>
+<files/question3/question3-eps-converted-to.pdf, id=462, 361.35pt x 252.945pt>
 File: files/question3/question3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question3/question3-eps-converted-to.pdf>
@@ -1441,7 +1441,7 @@ ps-converted-to.pdf files/question4/question4.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question4/question4-eps-converted-to.pdf, id=474, 361.35pt x 252.945pt>
+<files/question4/question4-eps-converted-to.pdf, id=473, 361.35pt x 252.945pt>
 File: files/question4/question4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question4/question4-eps-converted-to.pdf>
@@ -1460,7 +1460,7 @@ ps-converted-to.pdf files/question5/question5.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question5/question5-eps-converted-to.pdf, id=475, 361.35pt x 252.945pt>
+<files/question5/question5-eps-converted-to.pdf, id=474, 361.35pt x 252.945pt>
 File: files/question5/question5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question5/question5-eps-converted-to.pdf>
@@ -1479,7 +1479,7 @@ ps-converted-to.pdf files/question6/question6.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question6/question6-eps-converted-to.pdf, id=476, 361.35pt x 252.945pt>
+<files/question6/question6-eps-converted-to.pdf, id=475, 361.35pt x 252.945pt>
 File: files/question6/question6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question6/question6-eps-converted-to.pdf>
@@ -1503,7 +1503,7 @@ ps-converted-to.pdf files/question7/question7.eps>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question7/question7-eps-converted-to.pdf, id=499, 361.35pt x 252.945pt>
+<files/question7/question7-eps-converted-to.pdf, id=498, 361.35pt x 252.945pt>
 File: files/question7/question7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question7/question7-eps-converted-to.pdf>
@@ -1524,7 +1524,7 @@ ps-converted-to.pdf files/question8/question8.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question8/question8-eps-converted-to.pdf, id=510, 361.35pt x 252.945pt>
+<files/question8/question8-eps-converted-to.pdf, id=509, 361.35pt x 252.945pt>
 File: files/question8/question8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question8/question8-eps-converted-to.pdf>
@@ -1543,7 +1543,7 @@ ps-converted-to.pdf files/question9/question9.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question9/question9-eps-converted-to.pdf, id=511, 361.35pt x 252.945pt>
+<files/question9/question9-eps-converted-to.pdf, id=510, 361.35pt x 252.945pt>
 File: files/question9/question9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question9/question9-eps-converted-to.pdf>
@@ -1562,7 +1562,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question10/question10-eps-converted-to.pdf, id=512, 361.35pt x 252.945pt
+<files/question10/question10-eps-converted-to.pdf, id=511, 361.35pt x 252.945pt
 >
 File: files/question10/question10-eps-converted-to.pdf Graphic file (type pdf)
  <use files/question10/question10-eps-converted-to.pdf>
@@ -1715,7 +1715,7 @@ ckmatter/appendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 71BE563081721839BFF3CD8694045D98;3285.
+(rerunfilecheck)             Checksum: 64E9D447ACA438E34579C21729DC208C;3252.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 4A0DD79BD7F16132F7A723B91E810E2E;871.
 
@@ -1725,10 +1725,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 30671 strings out of 493921
- 693543 string characters out of 3144879
- 881879 words of memory out of 3000000
- 33130 multiletter control sequences out of 15000+200000
+ 30673 strings out of 493921
+ 693570 string characters out of 3144879
+ 881880 words of memory out of 3000000
+ 33131 multiletter control sequences out of 15000+200000
  21772 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,11n,77p,1380b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1737,10 +1737,10 @@ cti1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ectt1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
 nappen\ec\dpi600\ecrm1095.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Enno\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Enno\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Enn
-o\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Enno\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Enno\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Enn
+o\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\
 Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488
 .pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecbx1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
@@ -1750,9 +1750,9 @@ k\ljfour\jknappen\ec\dpi600\ecss1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Enno\AppData\Local\
 MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Enno\AppDa
 ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk>
-Output written on thesis.pdf (37 pages, 930507 bytes).
+Output written on thesis.pdf (37 pages, 933239 bytes).
 PDF statistics:
- 1300 PDF objects out of 1440 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
- 481 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1303 PDF objects out of 1440 (max. 8388607)
+ 165 named destinations out of 1000 (max. 500000)
+ 473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
