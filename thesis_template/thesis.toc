@@ -4,37 +4,37 @@
 \contentsline {subsection}{\numberline {1.0.2}Contributions}{1}{subsection.1.0.2}
 \contentsline {subsection}{\numberline {1.0.3}Outline}{2}{subsection.1.0.3}
 \thispagestyle {empty}
-\contentsline {chapter}{\numberline {2}A review in Social Media Authentication}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}A Review in Social Media Authentication}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Authentication Process Usability}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Android AccountManager}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Service providers}{3}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Service Providers}{3}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.2.1}Google Identity Platform}{4}{subsubsection.2.1.2.1}
 \contentsline {subsubsection}{\numberline {2.1.2.2}Facebook SDK}{4}{subsubsection.2.1.2.2}
-\contentsline {section}{\numberline {2.2}Previous research}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Visual login}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Tap pattern}{5}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Fingerphoto recognition}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Token-based authentication}{5}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Arm's flex}{6}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}Multitouch image-based authentication}{6}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}Continous authentication}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Gait recognition}{6}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Keystroke analysis}{7}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Location information}{7}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Orientation sensor}{7}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}TouchScreen gestures}{7}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.2}Previous Research}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Visual Login}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Tap Pattern}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Fingerphoto Recognition}{5}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Token-based Authentication}{5}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Arm's Flex}{6}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Multitouch Image-based Authentication}{6}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Continous Authentication}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Gait Recognition}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Keystroke Analysis}{7}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Location Information}{7}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Orientation Sensor}{7}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}TouchScreen Gestures}{7}{subsection.2.3.5}
 \contentsline {section}{\numberline {2.4}Summary}{7}{section.2.4}
 \contentsline {chapter}{\numberline {3}Problem Statement}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Research Question}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Summary}{10}{section.3.2}
 \contentsline {chapter}{\numberline {4}Pattern-Based Authentication method}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Short description of the solution}{11}{section.4.1}
+\contentsline {section}{\numberline {4.1}Short Description of the Solution}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}Android lockpattern}{12}{section.4.2}
 \contentsline {section}{\numberline {4.3}Supporting Multiple Users}{12}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data storage}{12}{section.4.4}
-\contentsline {section}{\numberline {4.5}Structure of the library}{13}{section.4.5}
-\contentsline {section}{\numberline {4.6}Flow of the library}{16}{section.4.6}
-\contentsline {section}{\numberline {4.7}Importing the library into a project}{18}{section.4.7}
+\contentsline {section}{\numberline {4.4}Data Storage}{12}{section.4.4}
+\contentsline {section}{\numberline {4.5}Structure of the Library}{13}{section.4.5}
+\contentsline {section}{\numberline {4.6}Flow of the Library}{16}{section.4.6}
+\contentsline {section}{\numberline {4.7}Importing the Library into a Project}{18}{section.4.7}
 \contentsline {section}{\numberline {4.8}Summary}{19}{section.4.8}
 \contentsline {chapter}{\numberline {5}Case Studies}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Validation}{21}{section.5.1}
