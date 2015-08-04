@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  3 AUG 2015 13:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.24)  4 AUG 2015 03:00
 entering extended mode
 **thesis.tex
 
@@ -1210,7 +1210,7 @@ is.tocpdfTeX warning (ext4): destination with the same identifier (name{page.})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 ...{4.2}Android lockpattern}{10}{section.4.2}
+l.32 ...{4.2}Android lockpattern}{12}{section.4.2}
                                                    [2
 
 
@@ -1229,179 +1229,169 @@ troduction/introduction.tex
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 32.
 
-) [1
+[1
 
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+) [2]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\2/st
 ateofart.tex
  2.
-
-Overfull \hbox (84.01392pt too wide) in paragraph at lines 24--24
-[][][]\T1/cmr/m/n/10 Google An-droid Ap-pli-ca-tion, https://play.google.com/st
-ore/apps/details?id=com.google.android.googlequicksearchbox| 
- []
-
-
-Overfull \hbox (5.38034pt too wide) in paragraph at lines 24--24
-[][][]\T1/cmr/m/n/10 Facebook An-droid Ap-pli-ca-tion, https://play.google.com/
-store/apps/details?id=com.facebook.katana| 
- []
-
-
-Overfull \hbox (74.00247pt too wide) in paragraph at lines 24--24
-[][][]\T1/cmr/m/n/10 Microsoft Out-look An-droid Ap-pli-ca-tion, https://play.g
-oogle.com/store/apps/details?id=com.microsoft.office.outlook| 
- []
-
-<images/accountmanager.png, id=269, 542.025pt x 963.6pt>
+<images/accountmanager.png, id=286, 542.025pt x 963.6pt>
 File: images/accountmanager.png Graphic file (type png)
 
 <use images/accountmanager.png>
-Package pdftex.def Info: images/accountmanager.png used on input line 30.
+Package pdftex.def Info: images/accountmanager.png used on input line 26.
 (pdftex.def)             Requested size: 135.89185pt x 241.57576pt.
 
-<images/facebookgoogletwitter.png, id=270, 542.025pt x 963.6pt>
+<images/facebookgoogletwitter.png, id=287, 542.025pt x 963.6pt>
 File: images/facebookgoogletwitter.png Graphic file (type png)
 
 <use images/facebookgoogletwitter.png>
-Package pdftex.def Info: images/facebookgoogletwitter.png used on input line 36
+Package pdftex.def Info: images/facebookgoogletwitter.png used on input line 32
 .
 (pdftex.def)             Requested size: 135.89185pt x 241.57576pt.
- [2
+ [3
 
 
 
-] [3 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+] [4 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/accountmanager.png> <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexT
-emplate/thesis_template/images/facebookgoogletwitter.png>] [4] [5]) [6]
+emplate/thesis_template/images/facebookgoogletwitter.png>] [5] [6] [7]) [8]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/re
 searchquestion.tex
  3.
-[7
-
-
-
-]) [8]
-(C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/co
-ntributions.tex
- 4.
 [9
 
 
 
-] <images/lockpattern.png, id=347, 542.025pt x 963.6pt>
+]) [10]
+(C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\3/co
+ntributions.tex
+ 4.
+[11
+
+
+
+] <images/lockpattern.png, id=370, 542.025pt x 963.6pt>
 File: images/lockpattern.png Graphic file (type png)
 
 <use images/lockpattern.png>
-Package pdftex.def Info: images/lockpattern.png used on input line 33.
+Package pdftex.def Info: images/lockpattern.png used on input line 31.
 (pdftex.def)             Requested size: 158.54164pt x 281.84819pt.
- [10 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+ [12 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /images/lockpattern.png>]
-<images/componentdiagram.png, id=356, 426.09187pt x 36.88782pt>
+<images/componentdiagram.png, id=379, 426.09187pt x 36.88782pt>
 File: images/componentdiagram.png Graphic file (type png)
 
 <use images/componentdiagram.png>
-Package pdftex.def Info: images/componentdiagram.png used on input line 54.
+Package pdftex.def Info: images/componentdiagram.png used on input line 52.
 (pdftex.def)             Requested size: 383.47913pt x 33.1987pt.
- [11 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
-/images/componentdiagram.png>] [12]
-<images/classdiagram.png, id=369, 592.46344pt x 283.81032pt>
+ [13 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+/images/componentdiagram.png>] [14]
+<images/classdiagram.png, id=393, 592.46344pt x 283.81032pt>
 File: images/classdiagram.png Graphic file (type png)
 
 <use images/classdiagram.png>
-Package pdftex.def Info: images/classdiagram.png used on input line 69.
+Package pdftex.def Info: images/classdiagram.png used on input line 67.
 (pdftex.def)             Requested size: 651.71179pt x 312.1923pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
+[15 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
 images/classdiagram.png>]
-<images/sequencediagramnew.png, id=376, 457.71pt x 197.98969pt>
+<images/sequencediagramnew.png, id=401, 457.71pt x 197.98969pt>
 File: images/sequencediagramnew.png Graphic file (type png)
 
 <use images/sequencediagramnew.png>
-Package pdftex.def Info: images/sequencediagramnew.png used on input line 87.
+Package pdftex.def Info: images/sequencediagramnew.png used on input line 85.
 (pdftex.def)             Requested size: 411.9352pt x 178.18906pt.
 
-<images/sequencediagramauth.png, id=377, 352.31625pt x 202.50656pt>
+<images/sequencediagramauth.png, id=402, 352.31625pt x 202.50656pt>
 File: images/sequencediagramauth.png Graphic file (type png)
 
 <use images/sequencediagramauth.png>
-Package pdftex.def Info: images/sequencediagramauth.png used on input line 96.
+Package pdftex.def Info: images/sequencediagramauth.png used on input line 94.
 (pdftex.def)             Requested size: 317.08168pt x 182.2542pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+[16
 
 
  <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/ima
 ges/sequencediagramnew.png>]
-<images/flowchart.png, id=384, 356.83313pt x 399.74344pt>
+<images/flowchart.png, id=409, 356.83313pt x 399.74344pt>
 File: images/flowchart.png Graphic file (type png)
 
 <use images/flowchart.png>
-Package pdftex.def Info: images/flowchart.png used on input line 106.
+Package pdftex.def Info: images/flowchart.png used on input line 104.
 (pdftex.def)             Requested size: 428.1976pt x 479.68971pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
-images/sequencediagramauth.png>] [16 <C:/Users/Enno/Documents/#Thesis_Paper/The
+[17 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
+images/sequencediagramauth.png>] [18 <C:/Users/Enno/Documents/#Thesis_Paper/The
 sisLatexTemplate/thesis_template/images/flowchart.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 121.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [17]) [18]
+) [19]) [20]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\4/ca
 sestudies.tex
  5.
-<images/nolibrary.png, id=436, 542.025pt x 963.6pt>
+[21
+
+
+
+] <images/nolibrary.png, id=469, 542.025pt x 963.6pt>
 File: images/nolibrary.png Graphic file (type png)
- <use images/nolibrary.png>
+
+<use images/nolibrary.png>
 Package pdftex.def Info: images/nolibrary.png used on input line 40.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
-
-[19
-
-
-
-] <images/reg.png, id=441, 1104.125pt x 1947.275pt>
+ <images/reg.png, id=470, 1104.125pt x 1947.275pt>
 File: images/reg.png Graphic file (type png)
- <use images/reg.png>
+
+<use images/reg.png>
 Package pdftex.def Info: images/reg.png used on input line 47.
 (pdftex.def)             Requested size: 331.24005pt x 584.18701pt.
-
-[20 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
-images/nolibrary.png>] <images/auth.png, id=447, 1104.125pt x 1947.275pt>
+ [22 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+/images/nolibrary.png>]
+<images/auth.png, id=476, 1104.125pt x 1947.275pt>
 File: images/auth.png Graphic file (type png)
-
-<use images/auth.png>
+ <use images/auth.png>
 Package pdftex.def Info: images/auth.png used on input line 55.
 (pdftex.def)             Requested size: 331.24005pt x 584.18701pt.
- [21 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
-/images/reg.png>] [22 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplat
-e/thesis_template/images/auth.png>]
+
+[23 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/
+images/reg.png>] [24 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate
+/thesis_template/images/auth.png>]
 Package epstopdf Info: Source file: <files/question1/question1.eps>
-(epstopdf)                    date: 2015-08-02 22:03:51
-(epstopdf)                    size: 20752 bytes
+(epstopdf)                    date: 2015-08-03 22:08:54
+(epstopdf)                    size: 20493 bytes
 (epstopdf)             Output file: <files/question1/question1-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-02 22:41:58
-(epstopdf)                    size: 7096 bytes
+(epstopdf)                    date: 2015-08-03 22:09:05
+(epstopdf)                    size: 7042 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question1/question1-e
 ps-converted-to.pdf files/question1/question1.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question1/question1-eps-converted-to.pdf, id=461, 361.35pt x 252.945pt>
+<files/question1/question1-eps-converted-to.pdf, id=489, 361.35pt x 252.945pt>
 File: files/question1/question1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question1/question1-eps-converted-to.pdf>
@@ -1409,39 +1399,39 @@ Package pdftex.def Info: files/question1/question1-eps-converted-to.pdf used on
  input line 67.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
 Package epstopdf Info: Source file: <files/question3/question3.eps>
-(epstopdf)                    date: 2015-08-03 02:34:36
-(epstopdf)                    size: 20795 bytes
+(epstopdf)                    date: 2015-08-03 22:06:17
+(epstopdf)                    size: 20809 bytes
 (epstopdf)             Output file: <files/question3/question3-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 02:45:28
-(epstopdf)                    size: 8404 bytes
+(epstopdf)                    date: 2015-08-03 22:06:33
+(epstopdf)                    size: 7907 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question3/question3-e
 ps-converted-to.pdf files/question3/question3.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question3/question3-eps-converted-to.pdf, id=462, 361.35pt x 252.945pt>
+<files/question3/question3-eps-converted-to.pdf, id=490, 361.35pt x 252.945pt>
 File: files/question3/question3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question3/question3-eps-converted-to.pdf>
 Package pdftex.def Info: files/question3/question3-eps-converted-to.pdf used on
  input line 81.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
- [23 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+ [25 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /files/question1/question1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <files/question4/question4.eps>
-(epstopdf)                    date: 2015-08-02 22:05:24
-(epstopdf)                    size: 20794 bytes
+(epstopdf)                    date: 2015-08-03 22:07:43
+(epstopdf)                    size: 20808 bytes
 (epstopdf)             Output file: <files/question4/question4-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 00:50:28
-(epstopdf)                    size: 8518 bytes
+(epstopdf)                    date: 2015-08-03 22:07:49
+(epstopdf)                    size: 8024 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question4/question4-e
 ps-converted-to.pdf files/question4/question4.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question4/question4-eps-converted-to.pdf, id=473, 361.35pt x 252.945pt>
+<files/question4/question4-eps-converted-to.pdf, id=501, 361.35pt x 252.945pt>
 File: files/question4/question4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question4/question4-eps-converted-to.pdf>
@@ -1449,18 +1439,18 @@ Package pdftex.def Info: files/question4/question4-eps-converted-to.pdf used on
  input line 88.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
 Package epstopdf Info: Source file: <files/question5/question5.eps>
-(epstopdf)                    date: 2015-08-02 22:06:56
-(epstopdf)                    size: 20791 bytes
+(epstopdf)                    date: 2015-08-03 22:09:48
+(epstopdf)                    size: 20808 bytes
 (epstopdf)             Output file: <files/question5/question5-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 00:50:28
-(epstopdf)                    size: 7785 bytes
+(epstopdf)                    date: 2015-08-03 22:09:54
+(epstopdf)                    size: 7511 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question5/question5-e
 ps-converted-to.pdf files/question5/question5.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question5/question5-eps-converted-to.pdf, id=474, 361.35pt x 252.945pt>
+<files/question5/question5-eps-converted-to.pdf, id=502, 361.35pt x 252.945pt>
 File: files/question5/question5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question5/question5-eps-converted-to.pdf>
@@ -1468,82 +1458,84 @@ Package pdftex.def Info: files/question5/question5-eps-converted-to.pdf used on
  input line 95.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
 Package epstopdf Info: Source file: <files/question6/question6.eps>
-(epstopdf)                    date: 2015-08-03 01:19:19
-(epstopdf)                    size: 20791 bytes
+(epstopdf)                    date: 2015-08-03 22:11:11
+(epstopdf)                    size: 20808 bytes
 (epstopdf)             Output file: <files/question6/question6-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 01:19:30
-(epstopdf)                    size: 7777 bytes
+(epstopdf)                    date: 2015-08-03 22:13:28
+(epstopdf)                    size: 7568 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question6/question6-e
 ps-converted-to.pdf files/question6/question6.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question6/question6-eps-converted-to.pdf, id=475, 361.35pt x 252.945pt>
+<files/question6/question6-eps-converted-to.pdf, id=503, 361.35pt x 252.945pt>
 File: files/question6/question6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question6/question6-eps-converted-to.pdf>
 Package pdftex.def Info: files/question6/question6-eps-converted-to.pdf used on
  input line 102.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
- [24 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+ [26 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
 /files/question3/question3-eps-converted-to.pdf> <C:/Users/Enno/Documents/#Thes
 is_Paper/ThesisLatexTemplate/thesis_template/files/question4/question4-eps-conv
 erted-to.pdf> <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis
 _template/files/question5/question5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <files/question7/question7.eps>
-(epstopdf)                    date: 2015-08-03 01:46:08
-(epstopdf)                    size: 20567 bytes
+(epstopdf)                    date: 2015-08-03 22:11:49
+(epstopdf)                    size: 20716 bytes
 (epstopdf)             Output file: <files/question7/question7-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 01:46:25
-(epstopdf)                    size: 7002 bytes
+(epstopdf)                    date: 2015-08-03 22:13:28
+(epstopdf)                    size: 7697 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question7/question7-e
 ps-converted-to.pdf files/question7/question7.eps>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question7/question7-eps-converted-to.pdf, id=498, 361.35pt x 252.945pt>
+<files/question7/question7-eps-converted-to.pdf, id=526, 361.35pt x 252.945pt>
 File: files/question7/question7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question7/question7-eps-converted-to.pdf>
 Package pdftex.def Info: files/question7/question7-eps-converted-to.pdf used on
  input line 117.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
- [25 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
-/files/question6/question6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <files/question8/question8.eps>
-(epstopdf)                    date: 2015-08-02 22:08:28
-(epstopdf)                    size: 20560 bytes
+(epstopdf)                    date: 2015-08-03 22:12:23
+(epstopdf)                    size: 20709 bytes
 (epstopdf)             Output file: <files/question8/question8-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 01:44:25
-(epstopdf)                    size: 6976 bytes
+(epstopdf)                    date: 2015-08-03 22:13:29
+(epstopdf)                    size: 7351 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question8/question8-e
 ps-converted-to.pdf files/question8/question8.eps>
 (epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question8/question8-eps-converted-to.pdf, id=509, 361.35pt x 252.945pt>
+<files/question8/question8-eps-converted-to.pdf, id=527, 361.35pt x 252.945pt>
 File: files/question8/question8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question8/question8-eps-converted-to.pdf>
 Package pdftex.def Info: files/question8/question8-eps-converted-to.pdf used on
  input line 124.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
+ [27 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+/files/question6/question6-eps-converted-to.pdf> <C:/Users/Enno/Documents/#Thes
+is_Paper/ThesisLatexTemplate/thesis_template/files/question7/question7-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <files/question9/question9.eps>
-(epstopdf)                    date: 2015-08-03 01:46:14
-(epstopdf)                    size: 20572 bytes
+(epstopdf)                    date: 2015-08-03 22:12:51
+(epstopdf)                    size: 20721 bytes
 (epstopdf)             Output file: <files/question9/question9-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-08-03 01:46:25
-(epstopdf)                    size: 7529 bytes
+(epstopdf)                    date: 2015-08-03 22:13:30
+(epstopdf)                    size: 8227 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question9/question9-e
 ps-converted-to.pdf files/question9/question9.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question9/question9-eps-converted-to.pdf, id=510, 361.35pt x 252.945pt>
+<files/question9/question9-eps-converted-to.pdf, id=545, 361.35pt x 252.945pt>
 File: files/question9/question9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use files/question9/question9-eps-converted-to.pdf>
@@ -1551,35 +1543,33 @@ Package pdftex.def Info: files/question9/question9-eps-converted-to.pdf used on
  input line 131.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
 Package epstopdf Info: Source file: <files/question10/question10.eps>
-(epstopdf)                    date: 2015-08-02 22:09:22
-(epstopdf)                    size: 21077 bytes
+(epstopdf)                    date: 2015-08-03 22:13:21
+(epstopdf)                    size: 20816 bytes
 (epstopdf)             Output file: <files/question10/question10-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2015-08-03 01:44:26
-(epstopdf)                    size: 8351 bytes
+(epstopdf)                    date: 2015-08-03 22:13:30
+(epstopdf)                    size: 8252 bytes
 (epstopdf)             Command: <epstopdf --outfile=files/question10/question10
 -eps-converted-to.pdf files/question10/question10.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
-<files/question10/question10-eps-converted-to.pdf, id=511, 361.35pt x 252.945pt
+<files/question10/question10-eps-converted-to.pdf, id=546, 361.35pt x 252.945pt
 >
 File: files/question10/question10-eps-converted-to.pdf Graphic file (type pdf)
  <use files/question10/question10-eps-converted-to.pdf>
 Package pdftex.def Info: files/question10/question10-eps-converted-to.pdf used 
 on input line 138.
 (pdftex.def)             Requested size: 252.94327pt x 177.06029pt.
- [26 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
-/files/question7/question7-eps-converted-to.pdf> <C:/Users/Enno/Documents/#Thes
-is_Paper/ThesisLatexTemplate/thesis_template/files/question8/question8-eps-conv
+ [28 <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template
+/files/question8/question8-eps-converted-to.pdf> <C:/Users/Enno/Documents/#Thes
+is_Paper/ThesisLatexTemplate/thesis_template/files/question9/question9-eps-conv
 erted-to.pdf> <C:/Users/Enno/Documents/#Thesis_Paper/ThesisLatexTemplate/thesis
-_template/files/question9/question9-eps-converted-to.pdf>]) [27 <C:/Users/Enno/
-Documents/#Thesis_Paper/ThesisLatexTemplate/thesis_template/files/question10/qu
-estion10-eps-converted-to.pdf>]
+_template/files/question10/question10-eps-converted-to.pdf>]) [29]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\5/co
 nclusions.tex
  6.
-) [28
+) [30
 
 
 
@@ -1589,10 +1579,10 @@ is.bbl
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\thes
 is.brf)
 \tf@brf=\write7
- [29
+ [31
 
 
-]) [30]
+]) [32]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\9_ba
 ckmatter/appendices.tex
  7.
@@ -1653,7 +1643,7 @@ Overfull \hbox (90.59227pt too wide) detected at line 34
  []
  []
 
-[31
+[33
 
 
 ]
@@ -1686,9 +1676,9 @@ Overfull \hbox (90.59227pt too wide) detected at line 46
  []
  []
 
-) [32]
+) [34]
 (C:\Users\Enno\Documents\#Thesis_Paper\ThesisLatexTemplate\thesis_template\9_ba
-ckmatter/licence.tex)) [33]
+ckmatter/licence.tex)) [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
 
@@ -1715,9 +1705,9 @@ ckmatter/appendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 64E9D447ACA438E34579C21729DC208C;3252.
+(rerunfilecheck)             Checksum: D9A5C83A56F81E942128385AA8C3FB95;3419.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 4A0DD79BD7F16132F7A723B91E810E2E;871.
+(rerunfilecheck)             Checksum: 92754F6E76557790E07F3FF29501CFCC;871.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1725,16 +1715,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 30673 strings out of 493921
- 693570 string characters out of 3144879
- 881880 words of memory out of 3000000
- 33131 multiletter control sequences out of 15000+200000
+ 30698 strings out of 493921
+ 693972 string characters out of 3144879
+ 881879 words of memory out of 3000000
+ 33145 multiletter control sequences out of 15000+200000
  21772 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,11n,77p,1380b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,77p,1379b,1001s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cti1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ectt1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+ctt1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecti1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
 nappen\ec\dpi600\ecrm1095.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\
 fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Enno\AppData\Local\Mi
@@ -1749,10 +1739,11 @@ jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.9\fonts\p
 k\ljfour\jknappen\ec\dpi600\ecss1200.pk> <C:\Users\Enno\AppData\Local\MiKTeX\2.
 9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Enno\AppData\Local\
 MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Enno\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk>
-Output written on thesis.pdf (37 pages, 933239 bytes).
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis.pdf (39 pages, 953672 bytes).
 PDF statistics:
- 1303 PDF objects out of 1440 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1333 PDF objects out of 1440 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

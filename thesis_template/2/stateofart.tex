@@ -3,10 +3,6 @@
 
 \chapter{A review in Social Media Authentication} % top level followed by section, subsection
 
-
-%transition between chapters, usually no more than two parragraphs
-
-
 % change according to folder and file names
 \ifpdf
     \graphicspath{{X/figures/PNG/}{X/figures/PDF/}{X/figures/}}
@@ -21,9 +17,7 @@
 Authentication process usability in this context refers to automating or simplifying the process of authenticating the user accessing the phone or features on the phone. This section discusses some of the tools used on mobile phones or tablets to simplify authentication.
 
 \subsection{Android AccountManager}
-Most of the applications are using Android AccountManager \footnote[1]{Android AccountManager, http://developer.android.com/intl/zh-CN/reference/android/accounts/AccountManager.html}, see Figure 2.1, as a tool to automate authentication. It is a built in centralized registry that can hold user credentials or even authentication tokens which are generated via application server. Though it requires implementing various components, increasing the complexity, it is still a good method for single user device. For example Google \footnote[2]{https://play.google.com/store/apps/ - Google}, Facebook \footnote[3]{Facebook Android Application, https://play.google.com/store/apps/details?id=com.facebook.katana}, and Microsoft Outlook \footnote[4]{Microsoft Outlook Android Application, https://play.google.com/store/apps/details?id=com.microsoft.office.outlook} each use this method. 
-
-%References to the images
+Most of the applications are using Android AccountManager \footnote[4]{http://developer.android.com/intl/zh-CN/reference/android/accounts/AccountManager.html}, see Figure 2.1, as a tool to automate authentication. It is a built in centralized registry that can hold user credentials or even authentication tokens which are generated via application server. Though it requires implementing various components, increasing the complexity, it is still a good method for single user device. For example Google \footnote[5]{https://play.google.com/store/apps/ - Google}, Facebook \footnote[6]{https://play.google.com/store/apps/ - Facebook}, and Microsoft Outlook \footnote[7]{https://play.google.com/store/apps/ - Microsoft Office Outlook} each use this method. 
 
 \begin{figure}
 \centering
@@ -42,13 +36,13 @@ Most of the applications are using Android AccountManager \footnote[1]{Android A
 \end{figure}
 
 \subsection{Service providers}
-The next most used method of authentication is provided by social media websites. These providers are giving developers the option to let users authenticate by using accounts on the social media websites. Users do not have to create new accounts to these sites, but will refer to their already existing accounts on social media as a way of registration. On android the user needs to have that social media application installed and logged in to use this method. The most known two providers are Google and Facebook. An example of how service provider tools appear on an Application is on Figure 2.2.
+The next most used method of authentication is provided by social media websites. These providers are giving developers the option to let users authenticate by using accounts on the social media websites. Users do not have to create new accounts to these sites, but will refer to their already existing accounts on social media as a way of registration. On android the user needs to have that social media application installed and logged in to use this method. The most known two providers are Google and Facebook. As an example of how service provider tools appear on an application, ''Flipboard: Your New Magazine'' \footnote[8]{https://play.google.com/store/apps/ - Flipboard: Your News Magazine} app is used, seen on Figure 2.2.
 
 \subsubsection{Google Identity Platform}
-Google is providing android developers with an application programming interface (API) which allows users to register and authenticate using Google account, but also allows developers to integrate other Google services into their applications: payments via Google Wallet, sharing with Google+, saving files to Drive, etc. \footnote[5]{https://developers.google.com/identity/}
+Google is providing android developers with an application programming interface (API) which allows users to register and authenticate using Google account, but also allows developers to integrate other Google services into their applications: payments via Google Wallet, sharing with Google+, saving files to Drive, etc. \footnote[9]{https://developers.google.com/identity/}
 
 \subsubsection{Facebook SDK}
-Facebook has a software development kit (SDK) for android developers. Just as with Google API, the SDK allows authentication via Facebook account and also provides more services - sharing on Facebook, sending application invites via Facebook, etc. \footnote[6]{https://developers.facebook.com/docs/android}
+Facebook has a software development kit (SDK) for android developers. Just as with Google API, the SDK allows authentication via Facebook account and also provides more services - sharing on Facebook, sending application invites via Facebook, etc. \footnote[10]{https://developers.facebook.com/docs/android}
 
 \section{Previous research}
 

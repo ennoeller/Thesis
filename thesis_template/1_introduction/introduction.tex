@@ -30,23 +30,35 @@ Social media has become a part or our life, whether we communicate by it, expres
 
 
 \subsection{Motivation}
-Applications on Android are mostly configured to keep the user signed in or memorize the credentials, though there are still applications that have not gone or are still implementing these methods, like Skype. \footnote{http://www.skype.com/en/} \footnote{http://www.androidauthority.com/skype-update-v5-5-makes-it-easy-to-sign-in-625877/}. Implementing automatic authentication may increase the usability of an applications, it also raises a security concern, where the device holder has access to the data, which normally would be hidden behind authentication requirements.
+Applications on Android are mostly configured to keep the user signed in or memorize the credentials, though there are still applications that have not gone or are still implementing these methods, like Skype. \footnote[1]{http://www.skype.com/en/} \footnote[2]{http://www.androidauthority.com/skype-update-v5-5-makes-it-easy-to-sign-in-625877/}. Implementing automatic authentication may increase the usability of an applications, it also raises a security concern, where the device holder has access to the data, which normally would be hidden behind authentication requirements.
 
 Realising this security issue, one might keep his applications signed out, whenever not using the device or log out purposely when lending the device to somebody. After doing so, the user would have to authenticate all the applications the hard way - typing. Given the inconvenience of the conventional typing authentication process on our devices, one might use the application less.
 
 
 \subsection{Contributions}
 
+The goal of this thesis is to describe current methods being used for social media authentication on mobile devices and introduce a new approach that would increase the user experience of the process.
 
+A new, pattern-based authentication method for mobile devices will be designed and implemented. The method will use the screen of the device in a way that is easier for the user and as a result leads to less mistakes and higher user experience.
 
+The objectives of the new method are the following:
+\begin{itemize}
+  \item To make the authentication process more enjoyable for the user, by providing better use of the screen of the mobile device.
+  \item To ease the integration of automating authentication for mobile social media applications, giving the developer opportunity to focus more on the application functionalities.
+  \item To provide applications with multi-user support, for devices being shared amongst users. 
+\end{itemize}
 
+To integrate pattern-based authentication into an application, a Java library for Android \footnote[3]{https://www.android.com/} was created. Application developers can use this library to provide users the option of saving their credentials and authenticate with pattern instead. This method achieves better screen usage, which makes it easier for the user. 
+
+The new method was evaluated and compared to the traditional authentication process by conducting a study in a set of 20 people. According to the results, the proposed method is easier and more user-friendly. Participants were less repulsed by the proposed method than traditional authentication process.
 
 \subsection{Outline}
-%for example
-%\noindent \textbf{Chapter 2}: discusses the state of the art addressed by this thesis. 
+\noindent \textbf{Chapter 2}: describes the most popular authentication automation tools used on Android. It also takes a closer look at numerous previous studies that use other mechanisms on the mobile devices to simplify authentication.
 
-%\noindent \textbf{Chapter 3}: explains the problems regarding the combination and the invocation of cloud services from the mobile phone. 
+\noindent \textbf{Chapter 3}: describes the research question that this thesis focuses on and its necessity.
 
-Brief introduction of each chapter %two of three lines
+\noindent \textbf{Chapter 4}: describes in detail the development process and the final proposed mechanism. Also describes, how one would implement this library in their app.
 
+\noindent \textbf{Chapter 5}: explains the evaluation of the proposed solution as well as takes a closer look at user feedback regarding the proposed method compared to traditional approach.
 
+\noindent \textbf{Chapter 6}: concludes the thesis with a summary and future research directions.
