@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {3.2}Summary}{10}{section.3.2}
 \contentsline {chapter}{\numberline {4}Pattern-Based Authentication method}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Short Description of the Solution}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Android lockpattern}{12}{section.4.2}
+\contentsline {section}{\numberline {4.2}Android Lockpattern}{12}{section.4.2}
 \contentsline {section}{\numberline {4.3}Supporting Multiple Users}{12}{section.4.3}
 \contentsline {section}{\numberline {4.4}Data Storage}{12}{section.4.4}
 \contentsline {section}{\numberline {4.5}Structure of the Library}{13}{section.4.5}
